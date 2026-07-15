@@ -80,6 +80,8 @@ Avant publication, vérifier à l'œil (QGIS, superposition avec Google Street V
 ## 5. Limite à mentionner dans l'article
 Le texte juridique définitif de la vignette n'est pas encore publié (accord de coopération interrégional du 10/07/2026, pas encore un texte de loi). Le périmètre exact "autoroutes et routes régionales / exception routes communales" pourrait encore être précisé d'ici mai 2027 — à formuler avec prudence ("sur la base des règles annoncées à ce stade").
 
+**Tarifs annoncés** (communiqués en session de travail, à sourcer formellement avant publication — cf. skill `verif-data`) : tarif annuel selon la classe d'émission du véhicule (équivalence Crit'Air) — 90 €/an (zéro émission), 100 €/an (Crit'Air 3), 125 €/an (Crit'Air 4 ou 5) ; tarif journalier entre 8,10 € (zéro émission) et 11,25 € (Crit'Air 4/5), la valeur intermédiaire (Crit'Air 3) n'ayant pas été communiquée explicitement. Stockés dans `pipeline/config.py` (`PRIX_VIGNETTE`) et exposés dans l'export Lovable (`output/lovable/details/{id}.json` → `prix_vignette`) — champ `source` à compléter avec une référence officielle avant toute publication.
+
 ## 6. Les 14 lieux, géolocalisés
 
 Power Oil (Menen) a été retiré de la liste (aucune route communale trouvée par aucune méthode testée, y compris avec un vrai moteur de routing — cf. journal de session). Cinq lieux ajoutés : La Panne (plage/côte), Mont Noir (Zwarteberg, Westouter), aéroport de Charleroi, Mouscron (Grand-Place), Floralux Dadizele.

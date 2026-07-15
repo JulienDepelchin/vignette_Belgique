@@ -175,5 +175,18 @@
       "unite": ""
     }
   ],
-  "prix_vignette_eur_an": null
+  "prix_vignette": {
+    "devise": "EUR",
+    "annuel": {
+      "zero_emission": 90,
+      "critair_3": 100,
+      "critair_4_5": 125
+    },
+    "journalier": {
+      "zero_emission": 8.1,
+      "critair_3": null,
+      "critair_4_5": 11.25
+    },
+    "source": null
+  }
 }

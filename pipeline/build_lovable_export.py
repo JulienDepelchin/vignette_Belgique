@@ -101,7 +101,7 @@ def main():
             "sans": f"geo/{dest_id}_sans.geojson",
         }
         detail["resume_delta"] = _resume_delta(d)
-        detail["prix_vignette_eur_an"] = config.PRIX_VIGNETTE_EUR_AN
+        detail["prix_vignette"] = config.PRIX_VIGNETTE
         (OUT_DETAILS / f"{dest_id}.json").write_text(
             json.dumps(detail, ensure_ascii=False, indent=2), encoding="utf-8"
         )

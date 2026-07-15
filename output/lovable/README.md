@@ -34,12 +34,30 @@ pipeline.build_lovable_export`. A committer tel quel dans le repo (ou dans
     change l'absence de vignette" (distance, temps, carburant, cout, CO2, et
     si disponibles villages traverses / carrefours). Chaque entree :
     `{"cle": "distance", "label": "de distance", "valeur": 22.29, "unite": "km"}`.
-  - `prix_vignette_eur_an` : **`null`** — le prix officiel de la vignette
-    n'est pas encore publie au moment de la generation de ces donnees (cf.
-    `brief_vignette_belgique.md` §5). Ne pas afficher de prix invente dans
-    l'app tant que ce champ n'est pas renseigne manuellement dans
-    `pipeline/config.py` (`PRIX_VIGNETTE_EUR_AN`) une fois la source
-    officielle connue.
+  - `prix_vignette` : tarifs de la vignette, par classe d'emission du
+    vehicule (equivalence Crit'Air) :
+    ```json
+    {
+      "devise": "EUR",
+      "annuel": {"zero_emission": 90, "critair_3": 100, "critair_4_5": 125},
+      "journalier": {"zero_emission": 8.10, "critair_3": null, "critair_4_5": 11.25},
+      "source": null
+    }
+    ```
+    Le tarif depend du vehicule du lecteur, pas de la destination — l'UI
+    devrait presenter une fourchette (ou un selecteur de classe) plutot
+    qu'un chiffre unique. `journalier.critair_3` est `null` : seuls les
+    tarifs "zero emission" (8,10 EUR) et "Crit'Air 4/5" (11,25 EUR) ont ete
+    communiques explicitement ; ne pas interpoler/afficher une valeur
+    inventee pour la classe intermediaire. `source` est `null` — **a
+    completer avec une reference officielle avant publication** (cf. skill
+    `verif-data`), ces chiffres n'ont pour l'instant ete que communiques
+    verbalement dans cette session de travail.
+    Ce prix est une info de reference affichee a cote du trajet "avec
+    vignette" (cf. mockup) — il n'est **pas** integre dans `delta_cout_eur`,
+    qui ne couvre que le delta de carburant (le cout reel de la vignette
+    depend de la frequence d'usage annuel/journalier du vehicule du lecteur,
+    une hypothese que ce pipeline ne peut pas faire a sa place).
   - `etapes` : trajet "sans vignette" etape par etape (villages traverses
     dans l'ordre, avec une heure estimee par interpolation lineaire depuis
     `pipeline.config.DEPART_HEURE_DEFAUT`, configurable). **Heures indicatives**,

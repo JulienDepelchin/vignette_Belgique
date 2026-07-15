@@ -74,11 +74,28 @@ MAJOR_REF_MIN_KM = 1.0
 # Heure de depart par defaut pour le calcul des horaires d'etape (etapes.json)
 DEPART_HEURE_DEFAUT = "08:00"
 
-# Prix de la vignette -- NON RENSEIGNE : le texte legal definitif n'etait pas
-# publie au moment de ce travail (cf. brief_vignette_belgique.md §5). Ne pas
-# afficher de prix invente dans un produit public tant que ce n'est pas
-# confirme par une source officielle.
-PRIX_VIGNETTE_EUR_AN = None
+# Prix de la vignette -- tarifs communiques par l'utilisateur (a sourcer
+# formellement -- reference officielle a joindre avant publication, cf.
+# skill verif-data). Tarif annuel selon la classe d'emission du vehicule
+# (equivalence Crit'Air) ; tarif journalier idem mais seuls les tarifs
+# "zero emission" et "Crit'Air 4/5" ont ete communiques explicitement -- la
+# valeur "critair_3" journaliere est interpolee lineairement a partir du
+# ratio annuel (100/125 = 0.8) et n'est PAS confirmee : gardee a None tant
+# qu'elle n'est pas verifiee, plutot que presentee comme un chiffre officiel.
+PRIX_VIGNETTE = {
+    "devise": "EUR",
+    "annuel": {
+        "zero_emission": 90,
+        "critair_3": 100,
+        "critair_4_5": 125,
+    },
+    "journalier": {
+        "zero_emission": 8.10,
+        "critair_3": None,  # non communique explicitement, cf. note ci-dessus
+        "critair_4_5": 11.25,
+    },
+    "source": None,  # a completer : reference officielle avant publication
+}
 
 # ---------------------------------------------------------------------------
 # Seuils de vitesse pour les statistiques (km/h)
