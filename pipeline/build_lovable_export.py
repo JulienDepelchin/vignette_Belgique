@@ -97,8 +97,8 @@ def main():
         detail = dict(d)  # copie
         detail["bbox"] = bbox
         detail["geo"] = {
-            "avec": f"geo/{dest_id}_avec.geojson",
-            "sans": f"geo/{dest_id}_sans.geojson",
+            "avec": f"{config.GITHUB_RAW_BASE}/geo/{dest_id}_avec.geojson",
+            "sans": f"{config.GITHUB_RAW_BASE}/geo/{dest_id}_sans.geojson",
         }
         detail["resume_delta"] = _resume_delta(d)
         detail["prix_vignette"] = config.PRIX_VIGNETTE

@@ -128,8 +128,8 @@
     50.797433
   ],
   "geo": {
-    "avec": "geo/mont_noir_avec.geojson",
-    "sans": "geo/mont_noir_sans.geojson"
+    "avec": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/geo/mont_noir_avec.geojson",
+    "sans": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/geo/mont_noir_sans.geojson"
   },
   "resume_delta": [
     {
@@ -189,5 +189,5 @@
     },
     "source": null
   },
-  "preview_image": "previews/mont_noir.png"
+  "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/mont_noir.png"
 }

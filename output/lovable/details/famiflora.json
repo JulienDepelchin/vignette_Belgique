@@ -133,8 +133,8 @@
     50.718646
   ],
   "geo": {
-    "avec": "geo/famiflora_avec.geojson",
-    "sans": "geo/famiflora_sans.geojson"
+    "avec": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/geo/famiflora_avec.geojson",
+    "sans": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/geo/famiflora_sans.geojson"
   },
   "resume_delta": [
     {
@@ -194,5 +194,5 @@
     },
     "source": null
   },
-  "preview_image": "previews/famiflora.png"
+  "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/famiflora.png"
 }

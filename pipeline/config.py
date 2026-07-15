@@ -15,6 +15,12 @@ INPUT_DIR = ROOT / "input"
 DESTINATIONS_CSV = INPUT_DIR / "destinations.csv"
 GPX_SANS_VIGNETTE_DIR = INPUT_DIR / "gpx_sans_vignette"
 
+# Base pour les URLs absolues des assets exposes a Lovable (images, GeoJSON).
+# Des chemins relatifs ("previews/x.png") laissent Lovable deviner par
+# rapport a quoi les resoudre -- souvent mal, d'ou des images qui ne
+# s'affichent pas. Des URLs absolues completes eliminent cette ambiguite.
+GITHUB_RAW_BASE = "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable"
+
 OUTPUT_DIR = ROOT / "output"
 OUTPUT_GEOJSON_DIR = OUTPUT_DIR / "geojson"
 OUTPUT_GPX_DIR = OUTPUT_DIR / "gpx"

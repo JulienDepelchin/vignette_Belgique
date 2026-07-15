@@ -198,8 +198,8 @@
     50.847266
   ],
   "geo": {
-    "avec": "geo/bellewaerde_avec.geojson",
-    "sans": "geo/bellewaerde_sans.geojson"
+    "avec": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/geo/bellewaerde_avec.geojson",
+    "sans": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/geo/bellewaerde_sans.geojson"
   },
   "resume_delta": [
     {
@@ -259,5 +259,5 @@
     },
     "source": null
   },
-  "preview_image": "previews/bellewaerde.png"
+  "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/bellewaerde.png"
 }

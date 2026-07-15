@@ -114,14 +114,14 @@ def main():
     dests_path = lovable_dir / "destinations.json"
     dests = json.loads(dests_path.read_text(encoding="utf-8"))
     for d in dests:
-        d["preview_image"] = f"previews/{d['id']}.png"
+        d["preview_image"] = f"{config.GITHUB_RAW_BASE}/previews/{d['id']}.png"
     dests_path.write_text(json.dumps(dests, ensure_ascii=False, indent=2), encoding="utf-8")
 
     details_dir = lovable_dir / "details"
     for d in dests:
         detail_path = details_dir / f"{d['id']}.json"
         detail = json.loads(detail_path.read_text(encoding="utf-8"))
-        detail["preview_image"] = f"previews/{d['id']}.png"
+        detail["preview_image"] = f"{config.GITHUB_RAW_BASE}/previews/{d['id']}.png"
         detail_path.write_text(json.dumps(detail, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print(f"\n{len(trajets)} images generees -> {OUT_DIR}")

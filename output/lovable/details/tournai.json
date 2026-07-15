@@ -157,8 +157,8 @@
     50.637288
   ],
   "geo": {
-    "avec": "geo/tournai_avec.geojson",
-    "sans": "geo/tournai_sans.geojson"
+    "avec": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/geo/tournai_avec.geojson",
+    "sans": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/geo/tournai_sans.geojson"
   },
   "resume_delta": [
     {
@@ -218,5 +218,5 @@
     },
     "source": null
   },
-  "preview_image": "previews/tournai.png"
+  "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/tournai.png"
 }

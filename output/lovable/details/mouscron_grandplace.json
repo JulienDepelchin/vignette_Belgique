@@ -121,8 +121,8 @@
     50.743934
   ],
   "geo": {
-    "avec": "geo/mouscron_grandplace_avec.geojson",
-    "sans": "geo/mouscron_grandplace_sans.geojson"
+    "avec": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/geo/mouscron_grandplace_avec.geojson",
+    "sans": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/geo/mouscron_grandplace_sans.geojson"
   },
   "resume_delta": [
     {
@@ -182,5 +182,5 @@
     },
     "source": null
   },
-  "preview_image": "previews/mouscron_grandplace.png"
+  "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/mouscron_grandplace.png"
 }

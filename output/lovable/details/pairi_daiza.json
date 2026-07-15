@@ -252,8 +252,8 @@
     50.679953
   ],
   "geo": {
-    "avec": "geo/pairi_daiza_avec.geojson",
-    "sans": "geo/pairi_daiza_sans.geojson"
+    "avec": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/geo/pairi_daiza_avec.geojson",
+    "sans": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/geo/pairi_daiza_sans.geojson"
   },
   "resume_delta": [
     {
@@ -313,5 +313,5 @@
     },
     "source": null
   },
-  "preview_image": "previews/pairi_daiza.png"
+  "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/pairi_daiza.png"
 }

@@ -19,7 +19,7 @@
       3.076415,
       50.847266
     ],
-    "preview_image": "previews/bellewaerde.png"
+    "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/bellewaerde.png"
   },
   {
     "id": "pairi_daiza",
@@ -41,7 +41,7 @@
       3.895474,
       50.679953
     ],
-    "preview_image": "previews/pairi_daiza.png"
+    "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/pairi_daiza.png"
   },
   {
     "id": "famiflora",
@@ -63,7 +63,7 @@
       3.286145,
       50.718646
     ],
-    "preview_image": "previews/famiflora.png"
+    "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/famiflora.png"
   },
   {
     "id": "tournai",
@@ -85,7 +85,7 @@
       3.38637,
       50.637288
     ],
-    "preview_image": "previews/tournai.png"
+    "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/tournai.png"
   },
   {
     "id": "mont_noir",
@@ -107,7 +107,7 @@
       3.063822,
       50.797433
     ],
-    "preview_image": "previews/mont_noir.png"
+    "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/mont_noir.png"
   },
   {
     "id": "charleroi_aeroport",
@@ -129,7 +129,7 @@
       4.527073,
       50.75859
     ],
-    "preview_image": "previews/charleroi_aeroport.png"
+    "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/charleroi_aeroport.png"
   },
   {
     "id": "mouscron_grandplace",
@@ -151,7 +151,7 @@
       3.214932,
       50.743934
     ],
-    "preview_image": "previews/mouscron_grandplace.png"
+    "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/mouscron_grandplace.png"
   },
   {
     "id": "floralux_dadizele",
@@ -173,6 +173,6 @@
       3.159292,
       50.844689
     ],
-    "preview_image": "previews/floralux_dadizele.png"
+    "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/floralux_dadizele.png"
   }
 ]

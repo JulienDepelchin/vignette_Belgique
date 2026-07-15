@@ -506,8 +506,8 @@
     50.75859
   ],
   "geo": {
-    "avec": "geo/charleroi_aeroport_avec.geojson",
-    "sans": "geo/charleroi_aeroport_sans.geojson"
+    "avec": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/geo/charleroi_aeroport_avec.geojson",
+    "sans": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/geo/charleroi_aeroport_sans.geojson"
   },
   "resume_delta": [
     {
@@ -567,5 +567,5 @@
     },
     "source": null
   },
-  "preview_image": "previews/charleroi_aeroport.png"
+  "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/charleroi_aeroport.png"
 }
