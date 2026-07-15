@@ -18,7 +18,8 @@
       50.63575,
       3.076415,
       50.847266
-    ]
+    ],
+    "preview_image": "previews/bellewaerde.png"
   },
   {
     "id": "pairi_daiza",
@@ -39,7 +40,8 @@
       50.444892,
       3.895474,
       50.679953
-    ]
+    ],
+    "preview_image": "previews/pairi_daiza.png"
   },
   {
     "id": "famiflora",
@@ -60,7 +62,8 @@
       50.636764,
       3.286145,
       50.718646
-    ]
+    ],
+    "preview_image": "previews/famiflora.png"
   },
   {
     "id": "tournai",
@@ -81,7 +84,8 @@
       50.569935,
       3.38637,
       50.637288
-    ]
+    ],
+    "preview_image": "previews/tournai.png"
   },
   {
     "id": "mont_noir",
@@ -102,7 +106,8 @@
       50.616254,
       3.063822,
       50.797433
-    ]
+    ],
+    "preview_image": "previews/mont_noir.png"
   },
   {
     "id": "charleroi_aeroport",
@@ -123,7 +128,8 @@
       50.29776,
       4.527073,
       50.75859
-    ]
+    ],
+    "preview_image": "previews/charleroi_aeroport.png"
   },
   {
     "id": "mouscron_grandplace",
@@ -144,7 +150,8 @@
       50.636764,
       3.214932,
       50.743934
-    ]
+    ],
+    "preview_image": "previews/mouscron_grandplace.png"
   },
   {
     "id": "floralux_dadizele",
@@ -165,6 +172,7 @@
       50.63575,
       3.159292,
       50.844689
-    ]
+    ],
+    "preview_image": "previews/floralux_dadizele.png"
   }
 ]

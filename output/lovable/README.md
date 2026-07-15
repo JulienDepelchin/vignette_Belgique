@@ -23,13 +23,31 @@ pipeline.build_lovable_export`. A committer tel quel dans le repo (ou dans
   ```
   `bbox` sert a cadrer la mini-carte de la vignette (au sens carte de gamme,
   pas la vignette routiere !) sans avoir a charger le GeoJSON complet.
+  `preview_image` : chemin vers une image statique PNG (dans `previews/`)
+  superposant les deux traces (avec=bleu, sans=rouge, rond=depart,
+  carre=arrivee) — **a utiliser pour la grille de cartes plutot qu'une
+  carte Leaflet live par carte** : une mini-carte interactive par carte
+  s'est averee peu fiable (conteneur de taille zero au montage, cout de
+  performance sur mobile avec 8+ cartes Leaflet simultanees). Generee par
+  `python -m pipeline.build_preview_images`.
 
 - **`details/{id}.json`** — fiche complete pour la page de detail d'une
   destination. Reprend la structure de `output/stats/{id}.json` (voir
   `README.md` racine pour le detail methodologique de chaque champ) plus :
   - `geo.avec` / `geo.sans` : chemins relatifs vers les GeoJSON (dans
-    `geo/`), a fetcher pour tracer les deux itineraires sur la carte.
+    `geo/`), a fetcher pour tracer les deux itineraires sur la carte de
+    detail (celle-ci reste une vraie carte Leaflet interactive, contrairement
+    aux vignettes de la grille). **Piege classique Leaflet + GeoJSON** : les
+    coordonnees GeoJSON sont `[longitude, latitude]`, alors que Leaflet
+    attend `[latitude, longitude]` pour `L.polyline()`. Si le trace
+    n'apparait pas (fond de carte visible mais aucune ligne), c'est presque
+    toujours parce que le code construit une polyline a la main a partir de
+    `geometry.coordinates` brut sans inverser les paires. Utiliser le
+    composant `<GeoJSON data={geojson} />` de react-leaflet (ou
+    `L.geoJSON(data)` en Leaflet pur), qui gere cette inversion nativement
+    — ne jamais passer `coordinates` directement a `L.polyline()`.
   - `bbox` : cadrage combine des deux traces.
+  - `preview_image` : meme champ que dans `destinations.json`.
   - `resume_delta` : tableau pret a afficher pour la ligne d'icones "ce que
     change l'absence de vignette" (distance, temps, carburant, cout, CO2, et
     si disponibles villages traverses / carrefours). Chaque entree :
