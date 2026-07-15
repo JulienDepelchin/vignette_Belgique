@@ -48,6 +48,11 @@ def build_one(dest_id):
     line_avec_m, line_sans_m = gdf.iloc[0], gdf.iloc[1]
 
     fig, ax = plt.subplots(figsize=FIG_SIZE, dpi=DPI)
+    # l'axe occupe tout le canevas (pas de marge) -- indispensable pour que le
+    # ratio 4:3 final soit garanti quelle que soit la forme du trace (sinon
+    # bbox_inches="tight" recadrerait sur le contenu et casserait le ratio,
+    # surtout visible sur les traces tres allonges nord-sud comme Floralux)
+    fig.subplots_adjust(left=0, right=1, top=1, bottom=0)
 
     for line, color, zorder in ((line_sans_m, COULEUR_SANS, 2), (line_avec_m, COULEUR_AVEC, 3)):
         xs, ys = line.xy
@@ -61,13 +66,30 @@ def build_one(dest_id):
 
     ax.set_aspect("equal")
     ax.axis("off")
+
+    # calcule une emprise centree qui respecte deja le ratio de FIG_SIZE (4:3)
+    # avant d'appeler add_basemap -- indispensable : si on laisse
+    # set_aspect("equal") seul ajuster la vue apres coup, le pavage de tuiles
+    # contextily est recupere pour l'emprise "brute" (non ajustee) et laisse
+    # des zones sans fond de carte sur les traces tres allonges (Floralux,
+    # Mont Noir, Bellewaerde, Tournai)
     margin = 0.12
     all_x = list(line_avec_m.xy[0]) + list(line_sans_m.xy[0])
     all_y = list(line_avec_m.xy[1]) + list(line_sans_m.xy[1])
-    dx = (max(all_x) - min(all_x)) * margin or 500
-    dy = (max(all_y) - min(all_y)) * margin or 500
-    ax.set_xlim(min(all_x) - dx, max(all_x) + dx)
-    ax.set_ylim(min(all_y) - dy, max(all_y) + dy)
+    minx, maxx = min(all_x), max(all_x)
+    miny, maxy = min(all_y), max(all_y)
+    span_x = (maxx - minx) * (1 + 2 * margin) or 1000
+    span_y = (maxy - miny) * (1 + 2 * margin) or 1000
+    center_x, center_y = (minx + maxx) / 2, (miny + maxy) / 2
+
+    target_ratio = FIG_SIZE[0] / FIG_SIZE[1]
+    if span_x / span_y < target_ratio:
+        span_x = span_y * target_ratio
+    else:
+        span_y = span_x / target_ratio
+
+    ax.set_xlim(center_x - span_x / 2, center_x + span_x / 2)
+    ax.set_ylim(center_y - span_y / 2, center_y + span_y / 2)
 
     try:
         cx.add_basemap(ax, source=BASEMAP_SOURCE, attribution=False)
@@ -75,7 +97,7 @@ def build_one(dest_id):
         print(f"  [{dest_id}] fond de carte indisponible ({e}) -- image generee sans basemap")
 
     out_path = OUT_DIR / f"{dest_id}.png"
-    fig.savefig(out_path, bbox_inches="tight", pad_inches=0.05)
+    fig.savefig(out_path)  # pas de bbox_inches="tight" : garde le ratio 4:3 fixe (cf. commentaire ci-dessus)
     plt.close(fig)
     return out_path
 
