@@ -1,0 +1,117 @@
+{
+  "id": "mouscron_grandplace",
+  "nom": "Mouscron (Grand-Place)",
+  "depart": "Lille",
+  "avec": {
+    "distance_km": 17.97,
+    "temps_min": 23.0,
+    "vitesse_moyenne_kmh": 46.8,
+    "carburant_l": 1.16,
+    "cout_carburant_eur": 2.02,
+    "co2_kg": 2.67,
+    "distance_urbaine_km": 7.12,
+    "routes_empruntees": [
+      "M 670",
+      "M 770"
+    ],
+    "geojson": "geojson/mouscron_grandplace_avec.geojson",
+    "gpx": "gpx/mouscron_grandplace_avec.gpx",
+    "methode": "route_unique",
+    "nb_cassures_detectees": 0
+  },
+  "sans": {
+    "distance_km": 17.97,
+    "temps_min": 23.0,
+    "vitesse_moyenne_kmh": 46.8,
+    "carburant_l": 1.16,
+    "cout_carburant_eur": 2.02,
+    "co2_kg": 2.67,
+    "distance_urbaine_km": 7.12,
+    "routes_empruntees": [
+      "Communales",
+      "M 670",
+      "M 770"
+    ],
+    "geojson": "geojson/mouscron_grandplace_sans.geojson",
+    "gpx": "gpx/mouscron_grandplace_sans.gpx",
+    "methode": "legwise_gpx",
+    "nb_cassures_detectees": 0
+  },
+  "delta": {
+    "delta_km": 0.0,
+    "delta_temps_min": 0.0,
+    "delta_carburant_l": 0.0,
+    "delta_cout_eur": 0.0,
+    "delta_co2_kg": 0.0,
+    "delta_villages_traverses": 0,
+    "delta_changements_de_route": 29
+  },
+  "analyse": {
+    "communes_traversees": [
+      "La Madeleine",
+      "Lille",
+      "Marcq-en-Barœul",
+      "Mouscron",
+      "Mouvaux",
+      "Tourcoing",
+      "Wasquehal",
+      "Wattrelos"
+    ],
+    "nb_communes_traversees": 8,
+    "villages_traverses": [
+      "Euralille",
+      "Lille",
+      "Mont-à-Leux",
+      "Mouscron - Moeskroen",
+      "Mouvaux"
+    ],
+    "nb_villages_traverses": 5,
+    "nb_giratoires": 3,
+    "nb_changements_de_route": 54,
+    "nb_feux": 117,
+    "nb_passages_a_niveau": 0,
+    "distance_communale_km": 2.35,
+    "distance_departementale_km": 0.0,
+    "distance_nationale_regionale_km": 15.56,
+    "distance_autoroute_km": 0.0,
+    "distance_ring_km": 0.0,
+    "distance_type_inconnu_km": 0.05,
+    "distance_urbaine_km": 7.12,
+    "temps_moins_50kmh_min": 12.3,
+    "temps_plus_90kmh_min": 0.0,
+    "vitesse_moyenne_kmh": 46.8,
+    "vitesse_mediane_kmh": 64.0
+  },
+  "etapes": [
+    {
+      "heure": "08:00",
+      "lieu": "Lille",
+      "position_km": 0.0,
+      "type": "depart"
+    },
+    {
+      "heure": "08:01",
+      "lieu": "Euralille",
+      "position_km": 1.43,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:12",
+      "lieu": "Mouvaux",
+      "position_km": 10.0,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:20",
+      "lieu": "Mont-à-Leux",
+      "position_km": 15.83,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:23",
+      "lieu": "Mouscron (Grand-Place)",
+      "position_km": 18.0,
+      "type": "arrivee"
+    }
+  ]
+}

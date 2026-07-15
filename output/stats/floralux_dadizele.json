@@ -1,0 +1,153 @@
+{
+  "id": "floralux_dadizele",
+  "nom": "Floralux Dadizele",
+  "depart": "Lille",
+  "avec": {
+    "distance_km": 28.44,
+    "temps_min": 30.5,
+    "vitesse_moyenne_kmh": 56.0,
+    "carburant_l": 1.84,
+    "cout_carburant_eur": 3.22,
+    "co2_kg": 4.25,
+    "distance_urbaine_km": 5.6,
+    "routes_empruntees": [
+      "A 22",
+      "N32",
+      "M 670"
+    ],
+    "geojson": "geojson/floralux_dadizele_avec.geojson",
+    "gpx": "gpx/floralux_dadizele_avec.gpx",
+    "methode": "route_unique",
+    "nb_cassures_detectees": 0
+  },
+  "sans": {
+    "distance_km": 29.92,
+    "temps_min": 39.3,
+    "vitesse_moyenne_kmh": 45.7,
+    "carburant_l": 2.06,
+    "cout_carburant_eur": 3.61,
+    "co2_kg": 4.76,
+    "distance_urbaine_km": 8.81,
+    "routes_empruntees": [
+      "Communales",
+      "A 22",
+      "M 670",
+      "N32b",
+      "M 191",
+      "M 917"
+    ],
+    "geojson": "geojson/floralux_dadizele_sans.geojson",
+    "gpx": "gpx/floralux_dadizele_sans.gpx",
+    "methode": "legwise_gpx",
+    "nb_cassures_detectees": 1
+  },
+  "delta": {
+    "delta_km": 1.48,
+    "delta_temps_min": 8.8,
+    "delta_carburant_l": 0.22,
+    "delta_cout_eur": 0.39,
+    "delta_co2_kg": 0.51,
+    "delta_villages_traverses": 4,
+    "delta_changements_de_route": 72
+  },
+  "analyse": {
+    "communes_traversees": [
+      "Bondues",
+      "Halluin",
+      "La Madeleine",
+      "Lille",
+      "Marcq-en-Barœul",
+      "Menen",
+      "Moorslede",
+      "Mouvaux",
+      "Neuville-en-Ferrain",
+      "Roncq",
+      "Tourcoing",
+      "Wasquehal",
+      "Wevelgem"
+    ],
+    "nb_communes_traversees": 13,
+    "villages_traverses": [
+      "De Barakken",
+      "Euralille",
+      "Halluin",
+      "Kezelberg",
+      "Le Pied de Bœuf",
+      "Lille",
+      "Menen",
+      "Parc Europe"
+    ],
+    "nb_villages_traverses": 8,
+    "nb_giratoires": 6,
+    "nb_changements_de_route": 98,
+    "nb_feux": 66,
+    "nb_passages_a_niveau": 2,
+    "distance_communale_km": 7.45,
+    "distance_departementale_km": 0.0,
+    "distance_nationale_regionale_km": 13.61,
+    "distance_autoroute_km": 8.85,
+    "distance_ring_km": 0.0,
+    "distance_type_inconnu_km": 0.0,
+    "distance_urbaine_km": 8.81,
+    "temps_moins_50kmh_min": 26.5,
+    "temps_plus_90kmh_min": 4.1,
+    "vitesse_moyenne_kmh": 45.7,
+    "vitesse_mediane_kmh": 64.0
+  },
+  "etapes": [
+    {
+      "heure": "08:00",
+      "lieu": "Lille",
+      "position_km": 0.0,
+      "type": "depart"
+    },
+    {
+      "heure": "08:01",
+      "lieu": "Euralille",
+      "position_km": 1.41,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:09",
+      "lieu": "Parc Europe",
+      "position_km": 7.02,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:18",
+      "lieu": "Le Pied de Bœuf",
+      "position_km": 13.85,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:26",
+      "lieu": "Halluin",
+      "position_km": 20.26,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:27",
+      "lieu": "De Barakken",
+      "position_km": 20.93,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:29",
+      "lieu": "Menen",
+      "position_km": 22.48,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:36",
+      "lieu": "Kezelberg",
+      "position_km": 27.58,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:39",
+      "lieu": "Floralux Dadizele",
+      "position_km": 29.95,
+      "type": "arrivee"
+    }
+  ]
+}

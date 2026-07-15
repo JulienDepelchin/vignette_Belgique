@@ -1,0 +1,9 @@
+id,nom,latitude,longitude,depart,latitude_depart,longitude_depart,gpx_filename
+bellewaerde,Bellewaerde,50.845810,2.949768,Lille,50.6367,3.0635,Bellewaerde.gpx
+pairi_daiza,Pairi Daiza,50.590627,3.893746,Lille,50.6367,3.0635,Pairi_Daiza.gpx
+famiflora,Famiflora,50.717576,3.282815,Lille,50.6367,3.0635,Famiflora.gpx
+tournai,Tournai (Grand-Place),50.606400,3.386625,Lille,50.6367,3.0635,Tournai.gpx
+mont_noir,Mont Noir (Zwarteberg),50.782355,2.742627,Lille,50.6367,3.0635,Mont_Noir.gpx
+charleroi_aeroport,Aeroport de Charleroi,50.471744,4.473366,Lille,50.6367,3.0635,Charleroi_Aeroport.gpx
+mouscron_grandplace,Mouscron (Grand-Place),50.743954,3.214896,Lille,50.6367,3.0635,Mouscron_GrandPlace.gpx
+floralux_dadizele,Floralux Dadizele,50.840552,3.113505,Lille,50.6367,3.0635,Floralux_Dadizele.gpx

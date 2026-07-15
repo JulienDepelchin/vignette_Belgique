@@ -1,0 +1,208 @@
+{
+  "id": "tournai",
+  "nom": "Tournai (Grand-Place)",
+  "depart": "Lille",
+  "avec": {
+    "distance_km": 26.74,
+    "temps_min": 25.2,
+    "vitesse_moyenne_kmh": 63.7,
+    "carburant_l": 1.73,
+    "cout_carburant_eur": 3.03,
+    "co2_kg": 4.0,
+    "distance_urbaine_km": 6.52,
+    "routes_empruntees": [
+      "A 27",
+      "N7",
+      "A 1a",
+      "E42",
+      "E429"
+    ],
+    "geojson": "geojson/tournai_avec.geojson",
+    "gpx": "gpx/tournai_avec.gpx",
+    "methode": "route_unique",
+    "nb_cassures_detectees": 0
+  },
+  "sans": {
+    "distance_km": 32.28,
+    "temps_min": 35.2,
+    "vitesse_moyenne_kmh": 55.1,
+    "carburant_l": 2.11,
+    "cout_carburant_eur": 3.69,
+    "co2_kg": 4.88,
+    "distance_urbaine_km": 9.15,
+    "routes_empruntees": [
+      "Communales",
+      "A 27",
+      "D 93",
+      "A 1a"
+    ],
+    "geojson": "geojson/tournai_sans.geojson",
+    "gpx": "gpx/tournai_sans.gpx",
+    "methode": "legwise_gpx",
+    "nb_cassures_detectees": 1
+  },
+  "delta": {
+    "delta_km": 5.54,
+    "delta_temps_min": 10.0,
+    "delta_carburant_l": 0.38,
+    "delta_cout_eur": 0.66,
+    "delta_co2_kg": 0.88,
+    "delta_villages_traverses": 1,
+    "delta_changements_de_route": 76
+  },
+  "analyse": {
+    "communes_traversees": [
+      "Anstaing",
+      "Baisieux",
+      "Camphin-en-Pévèle",
+      "Chéreng",
+      "Gruson",
+      "Lesquin",
+      "Lezennes",
+      "Lille",
+      "Ronchin",
+      "Sainghin-en-Mélantois",
+      "Tournai",
+      "Wannehain"
+    ],
+    "nb_communes_traversees": 12,
+    "villages_traverses": [
+      "Camphin-en-Pévèle",
+      "Esplechin",
+      "Froidmont",
+      "Le Bureau",
+      "Les Quatre Cantons",
+      "Lille",
+      "Maraiche",
+      "Tournai",
+      "Willemeau"
+    ],
+    "nb_villages_traverses": 9,
+    "nb_giratoires": 3,
+    "nb_changements_de_route": 90,
+    "nb_feux": 58,
+    "nb_passages_a_niveau": 0,
+    "distance_communale_km": 12.9,
+    "distance_departementale_km": 3.22,
+    "distance_nationale_regionale_km": 3.18,
+    "distance_autoroute_km": 12.98,
+    "distance_ring_km": 0.0,
+    "distance_type_inconnu_km": 0.0,
+    "distance_urbaine_km": 9.15,
+    "temps_moins_50kmh_min": 12.6,
+    "temps_plus_90kmh_min": 4.4,
+    "vitesse_moyenne_kmh": 55.1,
+    "vitesse_mediane_kmh": 50.0
+  },
+  "etapes": [
+    {
+      "heure": "08:00",
+      "lieu": "Lille",
+      "position_km": 0.0,
+      "type": "depart"
+    },
+    {
+      "heure": "08:08",
+      "lieu": "Les Quatre Cantons",
+      "position_km": 8.25,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:18",
+      "lieu": "Camphin-en-Pévèle",
+      "position_km": 17.35,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:21",
+      "lieu": "Le Bureau",
+      "position_km": 19.86,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:23",
+      "lieu": "Maraiche",
+      "position_km": 21.2,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:24",
+      "lieu": "Esplechin",
+      "position_km": 22.47,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:26",
+      "lieu": "Froidmont",
+      "position_km": 24.36,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:29",
+      "lieu": "Willemeau",
+      "position_km": 26.94,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:35",
+      "lieu": "Tournai (Grand-Place)",
+      "position_km": 32.35,
+      "type": "arrivee"
+    }
+  ],
+  "bbox": [
+    3.059548,
+    50.569935,
+    3.38637,
+    50.637288
+  ],
+  "geo": {
+    "avec": "geo/tournai_avec.geojson",
+    "sans": "geo/tournai_sans.geojson"
+  },
+  "resume_delta": [
+    {
+      "cle": "distance",
+      "label": "de distance",
+      "valeur": 5.54,
+      "unite": "km"
+    },
+    {
+      "cle": "temps",
+      "label": "de trajet",
+      "valeur": 10.0,
+      "unite": "min"
+    },
+    {
+      "cle": "carburant",
+      "label": "de carburant",
+      "valeur": 0.38,
+      "unite": "L"
+    },
+    {
+      "cle": "cout",
+      "label": "de carburant",
+      "valeur": 0.66,
+      "unite": "EUR"
+    },
+    {
+      "cle": "co2",
+      "label": "de CO2 emis",
+      "valeur": 0.88,
+      "unite": "kg"
+    },
+    {
+      "cle": "villages",
+      "label": "villages traverses",
+      "valeur": 1,
+      "unite": ""
+    },
+    {
+      "cle": "carrefours",
+      "label": "carrefours",
+      "valeur": 76,
+      "unite": ""
+    }
+  ],
+  "prix_vignette_eur_an": null
+}

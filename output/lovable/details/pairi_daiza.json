@@ -1,0 +1,303 @@
+{
+  "id": "pairi_daiza",
+  "nom": "Pairi Daiza",
+  "depart": "Lille",
+  "avec": {
+    "distance_km": 73.19,
+    "temps_min": 52.6,
+    "vitesse_moyenne_kmh": 83.5,
+    "carburant_l": 4.9,
+    "cout_carburant_eur": 8.58,
+    "co2_kg": 11.32,
+    "distance_urbaine_km": 5.91,
+    "routes_empruntees": [
+      "E429",
+      "A 27",
+      "E42",
+      "N57",
+      "A 1a",
+      "N523"
+    ],
+    "geojson": "geojson/pairi_daiza_avec.geojson",
+    "gpx": "gpx/pairi_daiza_avec.gpx",
+    "methode": "route_unique",
+    "nb_cassures_detectees": 0
+  },
+  "sans": {
+    "distance_km": 95.48,
+    "temps_min": 109.4,
+    "vitesse_moyenne_kmh": 52.4,
+    "carburant_l": 6.53,
+    "cout_carburant_eur": 11.44,
+    "co2_kg": 15.09,
+    "distance_urbaine_km": 13.05,
+    "routes_empruntees": [
+      "Communales",
+      "A 23",
+      "D 102",
+      "D 66",
+      "A 1a",
+      "D 268A",
+      "D 169"
+    ],
+    "geojson": "geojson/pairi_daiza_sans.geojson",
+    "gpx": "gpx/pairi_daiza_sans.gpx",
+    "methode": "legwise_gpx",
+    "nb_cassures_detectees": 3
+  },
+  "delta": {
+    "delta_km": 22.29,
+    "delta_temps_min": 56.8,
+    "delta_carburant_l": 1.63,
+    "delta_cout_eur": 2.86,
+    "delta_co2_kg": 3.77,
+    "delta_villages_traverses": 9,
+    "delta_changements_de_route": 244
+  },
+  "analyse": {
+    "communes_traversees": [
+      "Auchy-lez-Orchies",
+      "Belœil",
+      "Beuvry-la-Forêt",
+      "Brugelette",
+      "Chièvres",
+      "Flines-lès-Mortagne",
+      "Fretin",
+      "Genech",
+      "Landas",
+      "Lecelles",
+      "Lens",
+      "Lesquin",
+      "Lezennes",
+      "Lille",
+      "Louvil",
+      "Maulde",
+      "Mortagne-du-Nord",
+      "Nomain",
+      "Orchies",
+      "Péronne-en-Mélantois",
+      "Péruwelz",
+      "Ronchin",
+      "Rosult",
+      "Sainghin-en-Mélantois",
+      "Sars-et-Rosières",
+      "Templeuve-en-Pévèle",
+      "Thun-Saint-Amand"
+    ],
+    "nb_communes_traversees": 27,
+    "villages_traverses": [
+      "Bauffe",
+      "Belœil",
+      "Bury",
+      "Cambron-Casteau",
+      "Flines-lès-Mortagne",
+      "Le Maroc",
+      "Lecelles",
+      "Les Quatre Cantons",
+      "Les Écacheries",
+      "Lille",
+      "Mortagne-du-Nord",
+      "Quevaucamps",
+      "Roidepré",
+      "Rouillon",
+      "Rœux",
+      "Stambruges",
+      "Thumaide",
+      "Wadelincourt",
+      "Wiers"
+    ],
+    "nb_villages_traverses": 19,
+    "nb_giratoires": 8,
+    "nb_changements_de_route": 268,
+    "nb_feux": 62,
+    "nb_passages_a_niveau": 4,
+    "distance_communale_km": 49.64,
+    "distance_departementale_km": 12.04,
+    "distance_nationale_regionale_km": 3.72,
+    "distance_autoroute_km": 30.02,
+    "distance_ring_km": 0.0,
+    "distance_type_inconnu_km": 0.05,
+    "distance_urbaine_km": 13.05,
+    "temps_moins_50kmh_min": 54.0,
+    "temps_plus_90kmh_min": 12.8,
+    "vitesse_moyenne_kmh": 52.4,
+    "vitesse_mediane_kmh": 50.0
+  },
+  "etapes": [
+    {
+      "heure": "08:00",
+      "lieu": "Lille",
+      "position_km": 0.0,
+      "type": "depart"
+    },
+    {
+      "heure": "08:09",
+      "lieu": "Les Quatre Cantons",
+      "position_km": 8.62,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:45",
+      "lieu": "Lecelles",
+      "position_km": 40.1,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:50",
+      "lieu": "Le Maroc",
+      "position_km": 44.23,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:53",
+      "lieu": "Mortagne-du-Nord",
+      "position_km": 46.74,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:55",
+      "lieu": "Rœux",
+      "position_km": 48.45,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:56",
+      "lieu": "Flines-lès-Mortagne",
+      "position_km": 49.4,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:58",
+      "lieu": "Rouillon",
+      "position_km": 50.92,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:01",
+      "lieu": "Wiers",
+      "position_km": 53.51,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:06",
+      "lieu": "Roidepré",
+      "position_km": 58.01,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:10",
+      "lieu": "Bury",
+      "position_km": 61.84,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:15",
+      "lieu": "Thumaide",
+      "position_km": 66.07,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:17",
+      "lieu": "Wadelincourt",
+      "position_km": 67.35,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:21",
+      "lieu": "Quevaucamps",
+      "position_km": 71.14,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:24",
+      "lieu": "Stambruges",
+      "position_km": 74.06,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:27",
+      "lieu": "Les Écacheries",
+      "position_km": 76.63,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:29",
+      "lieu": "Belœil",
+      "position_km": 78.59,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:44",
+      "lieu": "Bauffe",
+      "position_km": 91.27,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:47",
+      "lieu": "Cambron-Casteau",
+      "position_km": 94.34,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:49",
+      "lieu": "Pairi Daiza",
+      "position_km": 95.65,
+      "type": "arrivee"
+    }
+  ],
+  "bbox": [
+    3.059548,
+    50.444892,
+    3.895474,
+    50.679953
+  ],
+  "geo": {
+    "avec": "geo/pairi_daiza_avec.geojson",
+    "sans": "geo/pairi_daiza_sans.geojson"
+  },
+  "resume_delta": [
+    {
+      "cle": "distance",
+      "label": "de distance",
+      "valeur": 22.29,
+      "unite": "km"
+    },
+    {
+      "cle": "temps",
+      "label": "de trajet",
+      "valeur": 56.8,
+      "unite": "min"
+    },
+    {
+      "cle": "carburant",
+      "label": "de carburant",
+      "valeur": 1.63,
+      "unite": "L"
+    },
+    {
+      "cle": "cout",
+      "label": "de carburant",
+      "valeur": 2.86,
+      "unite": "EUR"
+    },
+    {
+      "cle": "co2",
+      "label": "de CO2 emis",
+      "valeur": 3.77,
+      "unite": "kg"
+    },
+    {
+      "cle": "villages",
+      "label": "villages traverses",
+      "valeur": 9,
+      "unite": ""
+    },
+    {
+      "cle": "carrefours",
+      "label": "carrefours",
+      "valeur": 244,
+      "unite": ""
+    }
+  ],
+  "prix_vignette_eur_an": null
+}

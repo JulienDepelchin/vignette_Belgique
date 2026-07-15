@@ -1,0 +1,179 @@
+{
+  "id": "mont_noir",
+  "nom": "Mont Noir (Zwarteberg)",
+  "depart": "Lille",
+  "avec": {
+    "distance_km": 35.92,
+    "temps_min": 29.1,
+    "vitesse_moyenne_kmh": 74.0,
+    "carburant_l": 2.4,
+    "cout_carburant_eur": 4.19,
+    "co2_kg": 5.53,
+    "distance_urbaine_km": 3.51,
+    "routes_empruntees": [
+      "A 25",
+      "D 223",
+      "M 750"
+    ],
+    "geojson": "geojson/mont_noir_avec.geojson",
+    "gpx": "gpx/mont_noir_avec.gpx",
+    "methode": "route_unique",
+    "nb_cassures_detectees": 0
+  },
+  "sans": {
+    "distance_km": 41.89,
+    "temps_min": 39.2,
+    "vitesse_moyenne_kmh": 64.2,
+    "carburant_l": 2.82,
+    "cout_carburant_eur": 4.94,
+    "co2_kg": 6.53,
+    "distance_urbaine_km": 3.51,
+    "routes_empruntees": [
+      "Communales",
+      "A 25",
+      "D 223",
+      "M 750"
+    ],
+    "geojson": "geojson/mont_noir_sans.geojson",
+    "gpx": "gpx/mont_noir_sans.gpx",
+    "methode": "legwise_gpx",
+    "nb_cassures_detectees": 0
+  },
+  "delta": {
+    "delta_km": 5.97,
+    "delta_temps_min": 10.1,
+    "delta_carburant_l": 0.42,
+    "delta_cout_eur": 0.75,
+    "delta_co2_kg": 1.0,
+    "delta_villages_traverses": 0,
+    "delta_changements_de_route": 90
+  },
+  "analyse": {
+    "communes_traversees": [
+      "Bailleul",
+      "Boeschepe",
+      "Englos",
+      "Ennetières-en-Weppes",
+      "Erquinghem-Lys",
+      "Haubourdin",
+      "Heuvelland",
+      "La Chapelle-d'Armentières",
+      "Lille",
+      "Loos",
+      "Nieppe",
+      "Saint-Jans-Cappel",
+      "Sequedin",
+      "Steenwerck"
+    ],
+    "nb_communes_traversees": 14,
+    "villages_traverses": [
+      "Ennetières-en-Weppes",
+      "Le Blanc-Coulon",
+      "Lille",
+      "Vauban-Esquermes"
+    ],
+    "nb_villages_traverses": 4,
+    "nb_giratoires": 6,
+    "nb_changements_de_route": 111,
+    "nb_feux": 35,
+    "nb_passages_a_niveau": 0,
+    "distance_communale_km": 9.82,
+    "distance_departementale_km": 5.05,
+    "distance_nationale_regionale_km": 2.93,
+    "distance_autoroute_km": 24.04,
+    "distance_ring_km": 0.0,
+    "distance_type_inconnu_km": 0.05,
+    "distance_urbaine_km": 3.51,
+    "temps_moins_50kmh_min": 17.6,
+    "temps_plus_90kmh_min": 9.7,
+    "vitesse_moyenne_kmh": 64.2,
+    "vitesse_mediane_kmh": 82.0
+  },
+  "etapes": [
+    {
+      "heure": "08:00",
+      "lieu": "Lille",
+      "position_km": 0.0,
+      "type": "depart"
+    },
+    {
+      "heure": "08:02",
+      "lieu": "Vauban-Esquermes",
+      "position_km": 2.22,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:10",
+      "lieu": "Ennetières-en-Weppes",
+      "position_km": 10.76,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:10",
+      "lieu": "Le Blanc-Coulon",
+      "position_km": 11.32,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:39",
+      "lieu": "Mont Noir (Zwarteberg)",
+      "position_km": 41.97,
+      "type": "arrivee"
+    }
+  ],
+  "bbox": [
+    2.719247,
+    50.616254,
+    3.063822,
+    50.797433
+  ],
+  "geo": {
+    "avec": "geo/mont_noir_avec.geojson",
+    "sans": "geo/mont_noir_sans.geojson"
+  },
+  "resume_delta": [
+    {
+      "cle": "distance",
+      "label": "de distance",
+      "valeur": 5.97,
+      "unite": "km"
+    },
+    {
+      "cle": "temps",
+      "label": "de trajet",
+      "valeur": 10.1,
+      "unite": "min"
+    },
+    {
+      "cle": "carburant",
+      "label": "de carburant",
+      "valeur": 0.42,
+      "unite": "L"
+    },
+    {
+      "cle": "cout",
+      "label": "de carburant",
+      "valeur": 0.75,
+      "unite": "EUR"
+    },
+    {
+      "cle": "co2",
+      "label": "de CO2 emis",
+      "valeur": 1.0,
+      "unite": "kg"
+    },
+    {
+      "cle": "villages",
+      "label": "villages traverses",
+      "valeur": 0,
+      "unite": ""
+    },
+    {
+      "cle": "carrefours",
+      "label": "carrefours",
+      "valeur": 90,
+      "unite": ""
+    }
+  ],
+  "prix_vignette_eur_an": null
+}

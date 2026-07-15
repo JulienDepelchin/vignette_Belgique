@@ -1,0 +1,249 @@
+{
+  "id": "bellewaerde",
+  "nom": "Bellewaerde",
+  "depart": "Lille",
+  "avec": {
+    "distance_km": 29.32,
+    "temps_min": 40.3,
+    "vitesse_moyenne_kmh": 43.6,
+    "carburant_l": 1.96,
+    "cout_carburant_eur": 3.43,
+    "co2_kg": 4.53,
+    "distance_urbaine_km": 10.06,
+    "routes_empruntees": [
+      "M 308",
+      "M 617",
+      "N8",
+      "M 108",
+      "M 2308"
+    ],
+    "geojson": "geojson/bellewaerde_avec.geojson",
+    "gpx": "gpx/bellewaerde_avec.gpx",
+    "methode": "route_unique",
+    "nb_cassures_detectees": 0
+  },
+  "sans": {
+    "distance_km": 37.3,
+    "temps_min": 54.0,
+    "vitesse_moyenne_kmh": 41.4,
+    "carburant_l": 2.58,
+    "cout_carburant_eur": 4.51,
+    "co2_kg": 5.96,
+    "distance_urbaine_km": 10.19,
+    "routes_empruntees": [
+      "Communales",
+      "M 308",
+      "M 617",
+      "M 108",
+      "M 2308"
+    ],
+    "geojson": "geojson/bellewaerde_sans.geojson",
+    "gpx": "gpx/bellewaerde_sans.gpx",
+    "methode": "legwise_gpx",
+    "nb_cassures_detectees": 1
+  },
+  "delta": {
+    "delta_km": 7.98,
+    "delta_temps_min": 13.7,
+    "delta_carburant_l": 0.62,
+    "delta_cout_eur": 1.08,
+    "delta_co2_kg": 1.43,
+    "delta_villages_traverses": 2,
+    "delta_changements_de_route": 109
+  },
+  "analyse": {
+    "communes_traversees": [
+      "Comines",
+      "Comines-Warneton - Komen-Waasten",
+      "Ieper",
+      "La Madeleine",
+      "Lille",
+      "Marcq-en-Barœul",
+      "Marquette-lez-Lille",
+      "Quesnoy-sur-Deûle",
+      "Wambrechies",
+      "Zonnebeke"
+    ],
+    "nb_communes_traversees": 10,
+    "villages_traverses": [
+      "Bas-Warneton - Neerwaasten",
+      "Comines",
+      "Euralille",
+      "Hameau du Pont Blanc",
+      "Houthem",
+      "La Cortewilde",
+      "La Madeleine",
+      "Le Corent'je",
+      "Le Pont de Marcq",
+      "Les Trois Louches",
+      "Lille",
+      "Marquette-lez-Lille",
+      "Saint-Roch",
+      "Veldhoek",
+      "Zandvoorde"
+    ],
+    "nb_villages_traverses": 15,
+    "nb_giratoires": 19,
+    "nb_changements_de_route": 146,
+    "nb_feux": 93,
+    "nb_passages_a_niveau": 3,
+    "distance_communale_km": 31.1,
+    "distance_departementale_km": 0.0,
+    "distance_nationale_regionale_km": 6.2,
+    "distance_autoroute_km": 0.0,
+    "distance_ring_km": 0.0,
+    "distance_type_inconnu_km": 0.0,
+    "distance_urbaine_km": 10.19,
+    "temps_moins_50kmh_min": 36.5,
+    "temps_plus_90kmh_min": 0.0,
+    "vitesse_moyenne_kmh": 41.4,
+    "vitesse_mediane_kmh": 46.0
+  },
+  "etapes": [
+    {
+      "heure": "08:00",
+      "lieu": "Lille",
+      "position_km": 0.0,
+      "type": "depart"
+    },
+    {
+      "heure": "08:01",
+      "lieu": "Euralille",
+      "position_km": 1.38,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:04",
+      "lieu": "La Madeleine",
+      "position_km": 3.18,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:07",
+      "lieu": "Le Pont de Marcq",
+      "position_km": 4.93,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:07",
+      "lieu": "Saint-Roch",
+      "position_km": 5.53,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:08",
+      "lieu": "Marquette-lez-Lille",
+      "position_km": 5.97,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:14",
+      "lieu": "Les Trois Louches",
+      "position_km": 9.95,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:25",
+      "lieu": "Comines",
+      "position_km": 17.95,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:32",
+      "lieu": "Bas-Warneton - Neerwaasten",
+      "position_km": 22.53,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:38",
+      "lieu": "Le Corent'je",
+      "position_km": 26.36,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:41",
+      "lieu": "Houthem",
+      "position_km": 28.52,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:42",
+      "lieu": "La Cortewilde",
+      "position_km": 29.62,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:47",
+      "lieu": "Zandvoorde",
+      "position_km": 32.66,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:51",
+      "lieu": "Veldhoek",
+      "position_km": 35.66,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:54",
+      "lieu": "Bellewaerde",
+      "position_km": 37.36,
+      "type": "arrivee"
+    }
+  ],
+  "bbox": [
+    2.949741,
+    50.63575,
+    3.076415,
+    50.847266
+  ],
+  "geo": {
+    "avec": "geo/bellewaerde_avec.geojson",
+    "sans": "geo/bellewaerde_sans.geojson"
+  },
+  "resume_delta": [
+    {
+      "cle": "distance",
+      "label": "de distance",
+      "valeur": 7.98,
+      "unite": "km"
+    },
+    {
+      "cle": "temps",
+      "label": "de trajet",
+      "valeur": 13.7,
+      "unite": "min"
+    },
+    {
+      "cle": "carburant",
+      "label": "de carburant",
+      "valeur": 0.62,
+      "unite": "L"
+    },
+    {
+      "cle": "cout",
+      "label": "de carburant",
+      "valeur": 1.08,
+      "unite": "EUR"
+    },
+    {
+      "cle": "co2",
+      "label": "de CO2 emis",
+      "valeur": 1.43,
+      "unite": "kg"
+    },
+    {
+      "cle": "villages",
+      "label": "villages traverses",
+      "valeur": 2,
+      "unite": ""
+    },
+    {
+      "cle": "carrefours",
+      "label": "carrefours",
+      "valeur": 109,
+      "unite": ""
+    }
+  ],
+  "prix_vignette_eur_an": null
+}

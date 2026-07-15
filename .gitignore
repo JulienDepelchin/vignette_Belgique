@@ -1,0 +1,33 @@
+# Extraits OSM bruts (Geofabrik) -- trop volumineux pour git (600-900 Mo),
+# a retelecharger + fusionner via scripts/90_merge_osm_extracts.py
+*.osm.pbf
+tools/
+
+# Couches OSM derivees (regenerables via scripts/300-303_*.py et
+# scripts/30_tag_osm_with_classification.py) -- 20-360 Mo chacune
+data/osm_roads.gpkg
+data/osm_communes.gpkg
+data/classification_unifiee.gpkg
+
+# Caches de collecte intermediaires (Overpass, ArcGIS REST PICC/Wegenregister)
+# -- pas necessaires a la reproduction du produit final, cf. brief_vignette_belgique.md
+data/flandre/
+data/wallonie/
+
+# Scripts et sorties d'exploration/diagnostic jetables (tmp_*, non numerotes,
+# crees au fil des sessions de debug -- les scripts numerotes 00-303 sont la
+# methodologie officielle et restent versionnes)
+scripts/tmp_*
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# GraphHopper (recree par tools/, deja exclu ci-dessus, mais au cas ou)
+graph-cache*/
+
+# Etat runtime Claude Code (verrou de session, change a chaque execution)
+.claude/scheduled_tasks.lock

@@ -1,0 +1,184 @@
+{
+  "id": "famiflora",
+  "nom": "Famiflora",
+  "depart": "Lille",
+  "avec": {
+    "distance_km": 20.48,
+    "temps_min": 24.9,
+    "vitesse_moyenne_kmh": 49.4,
+    "carburant_l": 1.3,
+    "cout_carburant_eur": 2.28,
+    "co2_kg": 3.01,
+    "distance_urbaine_km": 6.47,
+    "routes_empruntees": [
+      "M 660",
+      "M 670",
+      "N511",
+      "M 760"
+    ],
+    "geojson": "geojson/famiflora_avec.geojson",
+    "gpx": "gpx/famiflora_avec.gpx",
+    "methode": "route_unique",
+    "nb_cassures_detectees": 0
+  },
+  "sans": {
+    "distance_km": 23.7,
+    "temps_min": 32.3,
+    "vitesse_moyenne_kmh": 44.1,
+    "carburant_l": 1.57,
+    "cout_carburant_eur": 2.75,
+    "co2_kg": 3.63,
+    "distance_urbaine_km": 7.95,
+    "routes_empruntees": [
+      "Communales",
+      "M 660",
+      "M 670",
+      "M 760"
+    ],
+    "geojson": "geojson/famiflora_sans.geojson",
+    "gpx": "gpx/famiflora_sans.gpx",
+    "methode": "legwise_gpx",
+    "nb_cassures_detectees": 3
+  },
+  "delta": {
+    "delta_km": 3.22,
+    "delta_temps_min": 7.4,
+    "delta_carburant_l": 0.27,
+    "delta_cout_eur": 0.47,
+    "delta_co2_kg": 0.62,
+    "delta_villages_traverses": 3,
+    "delta_changements_de_route": 64
+  },
+  "analyse": {
+    "communes_traversees": [
+      "Croix",
+      "Estaimpuis",
+      "La Madeleine",
+      "Lille",
+      "Marcq-en-Barœul",
+      "Mouscron",
+      "Roubaix",
+      "Villeneuve-d'Ascq",
+      "Wasquehal",
+      "Wattrelos"
+    ],
+    "nb_communes_traversees": 10,
+    "villages_traverses": [
+      "Estaimpuis",
+      "Euralille",
+      "Gauquier",
+      "Lille",
+      "Quevaucamps",
+      "Évregnies"
+    ],
+    "nb_villages_traverses": 6,
+    "nb_giratoires": 9,
+    "nb_changements_de_route": 85,
+    "nb_feux": 128,
+    "nb_passages_a_niveau": 2,
+    "distance_communale_km": 10.35,
+    "distance_departementale_km": 0.0,
+    "distance_nationale_regionale_km": 13.3,
+    "distance_autoroute_km": 0.0,
+    "distance_ring_km": 0.0,
+    "distance_type_inconnu_km": 0.05,
+    "distance_urbaine_km": 7.95,
+    "temps_moins_50kmh_min": 19.7,
+    "temps_plus_90kmh_min": 0.0,
+    "vitesse_moyenne_kmh": 44.1,
+    "vitesse_mediane_kmh": 50.0
+  },
+  "etapes": [
+    {
+      "heure": "08:00",
+      "lieu": "Lille",
+      "position_km": 0.0,
+      "type": "depart"
+    },
+    {
+      "heure": "08:01",
+      "lieu": "Euralille",
+      "position_km": 1.43,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:23",
+      "lieu": "Gauquier",
+      "position_km": 17.18,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:26",
+      "lieu": "Estaimpuis",
+      "position_km": 19.35,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:29",
+      "lieu": "Évregnies",
+      "position_km": 21.75,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:32",
+      "lieu": "Famiflora",
+      "position_km": 23.75,
+      "type": "arrivee"
+    }
+  ],
+  "bbox": [
+    3.058989,
+    50.636764,
+    3.286145,
+    50.718646
+  ],
+  "geo": {
+    "avec": "geo/famiflora_avec.geojson",
+    "sans": "geo/famiflora_sans.geojson"
+  },
+  "resume_delta": [
+    {
+      "cle": "distance",
+      "label": "de distance",
+      "valeur": 3.22,
+      "unite": "km"
+    },
+    {
+      "cle": "temps",
+      "label": "de trajet",
+      "valeur": 7.4,
+      "unite": "min"
+    },
+    {
+      "cle": "carburant",
+      "label": "de carburant",
+      "valeur": 0.27,
+      "unite": "L"
+    },
+    {
+      "cle": "cout",
+      "label": "de carburant",
+      "valeur": 0.47,
+      "unite": "EUR"
+    },
+    {
+      "cle": "co2",
+      "label": "de CO2 emis",
+      "valeur": 0.62,
+      "unite": "kg"
+    },
+    {
+      "cle": "villages",
+      "label": "villages traverses",
+      "valeur": 3,
+      "unite": ""
+    },
+    {
+      "cle": "carrefours",
+      "label": "carrefours",
+      "valeur": 64,
+      "unite": ""
+    }
+  ],
+  "prix_vignette_eur_an": null
+}

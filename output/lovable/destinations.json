@@ -1,0 +1,170 @@
+[
+  {
+    "id": "bellewaerde",
+    "nom": "Bellewaerde",
+    "depart": "Lille",
+    "avec": {
+      "temps_min": 40.3,
+      "distance_km": 29.32
+    },
+    "sans": {
+      "temps_min": 54.0,
+      "distance_km": 37.3
+    },
+    "delta_km": 7.98,
+    "delta_temps_min": 13.7,
+    "bbox": [
+      2.949741,
+      50.63575,
+      3.076415,
+      50.847266
+    ]
+  },
+  {
+    "id": "pairi_daiza",
+    "nom": "Pairi Daiza",
+    "depart": "Lille",
+    "avec": {
+      "temps_min": 52.6,
+      "distance_km": 73.19
+    },
+    "sans": {
+      "temps_min": 109.4,
+      "distance_km": 95.48
+    },
+    "delta_km": 22.29,
+    "delta_temps_min": 56.8,
+    "bbox": [
+      3.059548,
+      50.444892,
+      3.895474,
+      50.679953
+    ]
+  },
+  {
+    "id": "famiflora",
+    "nom": "Famiflora",
+    "depart": "Lille",
+    "avec": {
+      "temps_min": 24.9,
+      "distance_km": 20.48
+    },
+    "sans": {
+      "temps_min": 32.3,
+      "distance_km": 23.7
+    },
+    "delta_km": 3.22,
+    "delta_temps_min": 7.4,
+    "bbox": [
+      3.058989,
+      50.636764,
+      3.286145,
+      50.718646
+    ]
+  },
+  {
+    "id": "tournai",
+    "nom": "Tournai (Grand-Place)",
+    "depart": "Lille",
+    "avec": {
+      "temps_min": 25.2,
+      "distance_km": 26.74
+    },
+    "sans": {
+      "temps_min": 35.2,
+      "distance_km": 32.28
+    },
+    "delta_km": 5.54,
+    "delta_temps_min": 10.0,
+    "bbox": [
+      3.059548,
+      50.569935,
+      3.38637,
+      50.637288
+    ]
+  },
+  {
+    "id": "mont_noir",
+    "nom": "Mont Noir (Zwarteberg)",
+    "depart": "Lille",
+    "avec": {
+      "temps_min": 29.1,
+      "distance_km": 35.92
+    },
+    "sans": {
+      "temps_min": 39.2,
+      "distance_km": 41.89
+    },
+    "delta_km": 5.97,
+    "delta_temps_min": 10.1,
+    "bbox": [
+      2.719247,
+      50.616254,
+      3.063822,
+      50.797433
+    ]
+  },
+  {
+    "id": "charleroi_aeroport",
+    "nom": "Aeroport de Charleroi",
+    "depart": "Lille",
+    "avec": {
+      "temps_min": 73.8,
+      "distance_km": 118.04
+    },
+    "sans": {
+      "temps_min": 290.8,
+      "distance_km": 225.72
+    },
+    "delta_km": 107.68,
+    "delta_temps_min": 217.0,
+    "bbox": [
+      3.059548,
+      50.29776,
+      4.527073,
+      50.75859
+    ]
+  },
+  {
+    "id": "mouscron_grandplace",
+    "nom": "Mouscron (Grand-Place)",
+    "depart": "Lille",
+    "avec": {
+      "temps_min": 23.0,
+      "distance_km": 17.97
+    },
+    "sans": {
+      "temps_min": 23.0,
+      "distance_km": 17.97
+    },
+    "delta_km": 0.0,
+    "delta_temps_min": 0.0,
+    "bbox": [
+      3.058989,
+      50.636764,
+      3.214932,
+      50.743934
+    ]
+  },
+  {
+    "id": "floralux_dadizele",
+    "nom": "Floralux Dadizele",
+    "depart": "Lille",
+    "avec": {
+      "temps_min": 30.5,
+      "distance_km": 28.44
+    },
+    "sans": {
+      "temps_min": 39.3,
+      "distance_km": 29.92
+    },
+    "delta_km": 1.48,
+    "delta_temps_min": 8.8,
+    "bbox": [
+      3.058268,
+      50.63575,
+      3.159292,
+      50.844689
+    ]
+  }
+]

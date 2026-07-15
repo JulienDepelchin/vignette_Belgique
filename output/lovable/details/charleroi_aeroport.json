@@ -1,0 +1,557 @@
+{
+  "id": "charleroi_aeroport",
+  "nom": "Aeroport de Charleroi",
+  "depart": "Lille",
+  "avec": {
+    "distance_km": 118.04,
+    "temps_min": 73.8,
+    "vitesse_moyenne_kmh": 95.9,
+    "carburant_l": 8.02,
+    "cout_carburant_eur": 14.03,
+    "co2_kg": 18.52,
+    "distance_urbaine_km": 5.99,
+    "routes_empruntees": [
+      "E42",
+      "E19",
+      "A 27",
+      "E429",
+      "A 1a"
+    ],
+    "geojson": "geojson/charleroi_aeroport_avec.geojson",
+    "gpx": "gpx/charleroi_aeroport_avec.gpx",
+    "methode": "route_unique",
+    "nb_cassures_detectees": 0
+  },
+  "sans": {
+    "distance_km": 225.72,
+    "temps_min": 290.8,
+    "vitesse_moyenne_kmh": 46.6,
+    "carburant_l": 15.93,
+    "cout_carburant_eur": 27.89,
+    "co2_kg": 36.81,
+    "distance_urbaine_km": 32.4,
+    "routes_empruntees": [
+      "Communales",
+      "A 23",
+      "D 649",
+      "D 159",
+      "D 31",
+      "D 932",
+      "A 2",
+      "A 1a"
+    ],
+    "geojson": "geojson/charleroi_aeroport_sans.geojson",
+    "gpx": "gpx/charleroi_aeroport_sans.gpx",
+    "methode": "legwise_gpx",
+    "nb_cassures_detectees": 1
+  },
+  "delta": {
+    "delta_km": 107.68,
+    "delta_temps_min": 217.0,
+    "delta_carburant_l": 7.91,
+    "delta_cout_eur": 13.86,
+    "delta_co2_kg": 18.29,
+    "delta_villages_traverses": 41,
+    "delta_changements_de_route": 709
+  },
+  "analyse": {
+    "communes_traversees": [
+      "Aubry-du-Hainaut",
+      "Auchy-lez-Orchies",
+      "Aulnoy-lez-Valenciennes",
+      "Bavay",
+      "Beersel",
+      "Bellignies",
+      "Bettignies",
+      "Beuvry-la-Forêt",
+      "Binche",
+      "Bousignies",
+      "Braine-l'Alleud",
+      "Braine-le-Comte",
+      "Brillon",
+      "Charleroi",
+      "Curgies",
+      "Estinnes",
+      "Fretin",
+      "Genappe",
+      "Genech",
+      "Gognies-Chaussée",
+      "Halle",
+      "Hasnon",
+      "Houdain-lez-Bavay",
+      "Ittre",
+      "Jenlain",
+      "La Flamengrie",
+      "La Longueville",
+      "La Louvière",
+      "La Sentinelle",
+      "Landas",
+      "Lasne",
+      "Le Rœulx",
+      "Les Bons Villers",
+      "Lesquin",
+      "Lezennes",
+      "Lille",
+      "Louvil",
+      "Marly",
+      "Millonfosse",
+      "Nomain",
+      "Orchies",
+      "Ottignies-Louvain-la-Neuve",
+      "Petite-Forêt",
+      "Péronne-en-Mélantois",
+      "Quévy",
+      "Raismes",
+      "Ronchin",
+      "Rosult",
+      "Sainghin-en-Mélantois",
+      "Saint-Waast",
+      "Sars-et-Rosières",
+      "Saultain",
+      "Sint-Genesius-Rode - Rhode-Saint-Genèse",
+      "Taisnières-sur-Hon",
+      "Templeuve-en-Pévèle",
+      "Trith-Saint-Léger",
+      "Tubize",
+      "Valenciennes",
+      "Villers-Sire-Nicole",
+      "Villers-la-Ville",
+      "Wargnies-le-Grand",
+      "Wargnies-le-Petit",
+      "Waterloo",
+      "Écaussinnes"
+    ],
+    "nb_communes_traversees": 64,
+    "villages_traverses": [
+      "Bas Jaune",
+      "Bettignies",
+      "Bois de la Muchotte",
+      "Bousval",
+      "Bray",
+      "Clabecq",
+      "Estinnes",
+      "Estinnes-au-Mont",
+      "Estinnes-au-Val",
+      "Gognies-Chaussée",
+      "Gœgnies-Chaussée",
+      "Haulchin",
+      "Hennuyères",
+      "Houdeng-Aimeries",
+      "Houlette",
+      "Huizingen",
+      "Journaux",
+      "Kesterbeek",
+      "L'Ermitage",
+      "La Garenne",
+      "La Marache",
+      "La Mécanique",
+      "La Sentinelle",
+      "La Tombelle",
+      "Lait Beurré",
+      "Le Jacquier",
+      "Le Marais",
+      "Le Ménil",
+      "Le Repos des Chasseurs",
+      "Le Roussart",
+      "Les 4 chênes",
+      "Les Bons Villers",
+      "Les Busettes",
+      "Les Quatre Cantons",
+      "Les Trîs",
+      "Lille",
+      "Maasdal",
+      "Maurage",
+      "Mellet",
+      "Mignault",
+      "Millonfosse",
+      "Mongaveau",
+      "Mâlonfontaine",
+      "Oud Dorp",
+      "Petite-Forêt",
+      "Plattesteen",
+      "Pont Cassé",
+      "Saint-Jean",
+      "Sclage",
+      "Sint-Genesius-Rode - Rhode-Saint-Genèse",
+      "Strépy-Bracquegnies",
+      "Villers-Perwin",
+      "Villers-Sire-Nicole",
+      "Wayaux",
+      "Écaussinnes",
+      "Écaussinnes-d'Enghien"
+    ],
+    "nb_villages_traverses": 56,
+    "nb_giratoires": 31,
+    "nb_changements_de_route": 735,
+    "nb_feux": 95,
+    "nb_passages_a_niveau": 0,
+    "distance_communale_km": 131.43,
+    "distance_departementale_km": 36.6,
+    "distance_nationale_regionale_km": 6.53,
+    "distance_autoroute_km": 51.1,
+    "distance_ring_km": 0.0,
+    "distance_type_inconnu_km": 0.05,
+    "distance_urbaine_km": 32.4,
+    "temps_moins_50kmh_min": 195.2,
+    "temps_plus_90kmh_min": 34.9,
+    "vitesse_moyenne_kmh": 46.6,
+    "vitesse_mediane_kmh": 50.0
+  },
+  "etapes": [
+    {
+      "heure": "08:00",
+      "lieu": "Lille",
+      "position_km": 0.0,
+      "type": "depart"
+    },
+    {
+      "heure": "08:11",
+      "lieu": "Les Quatre Cantons",
+      "position_km": 8.62,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:47",
+      "lieu": "Millonfosse",
+      "position_km": 37.21,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:49",
+      "lieu": "Les Busettes",
+      "position_km": 38.45,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:00",
+      "lieu": "Petite-Forêt",
+      "position_km": 46.73,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:03",
+      "lieu": "La Sentinelle",
+      "position_km": 49.71,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:47",
+      "lieu": "L'Ermitage",
+      "position_km": 83.31,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:51",
+      "lieu": "Gœgnies-Chaussée",
+      "position_km": 86.68,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:55",
+      "lieu": "Bettignies",
+      "position_km": 89.48,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:59",
+      "lieu": "Villers-Sire-Nicole",
+      "position_km": 92.88,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "10:09",
+      "lieu": "Haulchin",
+      "position_km": 100.68,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "10:12",
+      "lieu": "Estinnes-au-Mont",
+      "position_km": 102.74,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "10:14",
+      "lieu": "Estinnes-au-Val",
+      "position_km": 104.91,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "10:17",
+      "lieu": "Bray",
+      "position_km": 106.93,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "10:22",
+      "lieu": "Maurage",
+      "position_km": 110.49,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "10:23",
+      "lieu": "Saint-Jean",
+      "position_km": 111.48,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "10:25",
+      "lieu": "Strépy-Bracquegnies",
+      "position_km": 113.47,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "10:26",
+      "lieu": "La Mécanique",
+      "position_km": 113.98,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "10:28",
+      "lieu": "Le Marais",
+      "position_km": 115.15,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "10:28",
+      "lieu": "Houdeng-Aimeries",
+      "position_km": 115.59,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "10:29",
+      "lieu": "La Tombelle",
+      "position_km": 116.48,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "10:30",
+      "lieu": "Les Trîs",
+      "position_km": 117.26,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "10:32",
+      "lieu": "Lait Beurré",
+      "position_km": 118.58,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "10:35",
+      "lieu": "Le Repos des Chasseurs",
+      "position_km": 121.1,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "10:36",
+      "lieu": "Bois de la Muchotte",
+      "position_km": 121.51,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "10:39",
+      "lieu": "Mignault",
+      "position_km": 123.86,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "10:43",
+      "lieu": "Mâlonfontaine",
+      "position_km": 126.76,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "10:46",
+      "lieu": "Écaussinnes",
+      "position_km": 129.31,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "10:59",
+      "lieu": "Hennuyères",
+      "position_km": 139.21,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "11:05",
+      "lieu": "Le Jacquier",
+      "position_km": 144.25,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "11:13",
+      "lieu": "Clabecq",
+      "position_km": 150.18,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "11:18",
+      "lieu": "Maasdal",
+      "position_km": 154.48,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "11:21",
+      "lieu": "Plattesteen",
+      "position_km": 156.79,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "11:28",
+      "lieu": "Huizingen",
+      "position_km": 161.87,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "11:30",
+      "lieu": "Kesterbeek",
+      "position_km": 163.63,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "11:36",
+      "lieu": "Sint-Genesius-Rode - Rhode-Saint-Genèse",
+      "position_km": 168.44,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "11:50",
+      "lieu": "Le Roussart",
+      "position_km": 179.34,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "11:54",
+      "lieu": "Le Ménil",
+      "position_km": 182.46,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "12:05",
+      "lieu": "La Marache",
+      "position_km": 191.13,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "12:18",
+      "lieu": "Sclage",
+      "position_km": 200.61,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "12:20",
+      "lieu": "Bousval",
+      "position_km": 202.52,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "12:30",
+      "lieu": "Les 4 chênes",
+      "position_km": 210.31,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "12:32",
+      "lieu": "Houlette",
+      "position_km": 211.92,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "12:35",
+      "lieu": "Bas Jaune",
+      "position_km": 214.0,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "12:40",
+      "lieu": "Villers-Perwin",
+      "position_km": 218.28,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "12:41",
+      "lieu": "Les Bons Villers",
+      "position_km": 218.76,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "12:44",
+      "lieu": "Mellet",
+      "position_km": 221.23,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "12:47",
+      "lieu": "Wayaux",
+      "position_km": 223.31,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "12:48",
+      "lieu": "Journaux",
+      "position_km": 224.08,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "12:50",
+      "lieu": "Aeroport de Charleroi",
+      "position_km": 226.12,
+      "type": "arrivee"
+    }
+  ],
+  "bbox": [
+    3.059548,
+    50.29776,
+    4.527073,
+    50.75859
+  ],
+  "geo": {
+    "avec": "geo/charleroi_aeroport_avec.geojson",
+    "sans": "geo/charleroi_aeroport_sans.geojson"
+  },
+  "resume_delta": [
+    {
+      "cle": "distance",
+      "label": "de distance",
+      "valeur": 107.68,
+      "unite": "km"
+    },
+    {
+      "cle": "temps",
+      "label": "de trajet",
+      "valeur": 217.0,
+      "unite": "min"
+    },
+    {
+      "cle": "carburant",
+      "label": "de carburant",
+      "valeur": 7.91,
+      "unite": "L"
+    },
+    {
+      "cle": "cout",
+      "label": "de carburant",
+      "valeur": 13.86,
+      "unite": "EUR"
+    },
+    {
+      "cle": "co2",
+      "label": "de CO2 emis",
+      "valeur": 18.29,
+      "unite": "kg"
+    },
+    {
+      "cle": "villages",
+      "label": "villages traverses",
+      "valeur": 41,
+      "unite": ""
+    },
+    {
+      "cle": "carrefours",
+      "label": "carrefours",
+      "valeur": 709,
+      "unite": ""
+    }
+  ],
+  "prix_vignette_eur_an": null
+}
