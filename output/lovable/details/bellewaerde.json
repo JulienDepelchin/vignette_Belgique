@@ -7,7 +7,7 @@
     "temps_min": 40.3,
     "vitesse_moyenne_kmh": 43.6,
     "carburant_l": 1.96,
-    "cout_carburant_eur": 3.43,
+    "cout_carburant_eur": 3.81,
     "co2_kg": 4.53,
     "distance_urbaine_km": 10.06,
     "routes_empruntees": [
@@ -27,7 +27,7 @@
     "temps_min": 54.0,
     "vitesse_moyenne_kmh": 41.4,
     "carburant_l": 2.58,
-    "cout_carburant_eur": 4.51,
+    "cout_carburant_eur": 5.01,
     "co2_kg": 5.96,
     "distance_urbaine_km": 10.19,
     "routes_empruntees": [
@@ -46,7 +46,7 @@
     "delta_km": 7.98,
     "delta_temps_min": 13.7,
     "delta_carburant_l": 0.62,
-    "delta_cout_eur": 1.08,
+    "delta_cout_eur": 1.2,
     "delta_co2_kg": 1.43,
     "delta_villages_traverses": 2,
     "delta_changements_de_route": 109
@@ -223,7 +223,7 @@
     {
       "cle": "cout",
       "label": "de carburant",
-      "valeur": 1.08,
+      "valeur": 1.2,
       "unite": "EUR"
     },
     {
@@ -258,6 +258,5 @@
       "critair_4_5": 11.25
     },
     "source": null
-  },
-  "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/bellewaerde.png"
+  }
 }

@@ -7,7 +7,7 @@
     "temps_min": 29.1,
     "vitesse_moyenne_kmh": 74.0,
     "carburant_l": 2.4,
-    "cout_carburant_eur": 4.19,
+    "cout_carburant_eur": 4.65,
     "co2_kg": 5.53,
     "distance_urbaine_km": 3.51,
     "routes_empruntees": [
@@ -25,7 +25,7 @@
     "temps_min": 39.2,
     "vitesse_moyenne_kmh": 64.2,
     "carburant_l": 2.82,
-    "cout_carburant_eur": 4.94,
+    "cout_carburant_eur": 5.49,
     "co2_kg": 6.53,
     "distance_urbaine_km": 3.51,
     "routes_empruntees": [
@@ -43,7 +43,7 @@
     "delta_km": 5.97,
     "delta_temps_min": 10.1,
     "delta_carburant_l": 0.42,
-    "delta_cout_eur": 0.75,
+    "delta_cout_eur": 0.84,
     "delta_co2_kg": 1.0,
     "delta_villages_traverses": 0,
     "delta_changements_de_route": 90
@@ -153,7 +153,7 @@
     {
       "cle": "cout",
       "label": "de carburant",
-      "valeur": 0.75,
+      "valeur": 0.84,
       "unite": "EUR"
     },
     {
@@ -188,6 +188,5 @@
       "critair_4_5": 11.25
     },
     "source": null
-  },
-  "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/mont_noir.png"
+  }
 }

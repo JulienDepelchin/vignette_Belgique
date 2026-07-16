@@ -7,7 +7,7 @@
     "temps_min": 52.6,
     "vitesse_moyenne_kmh": 83.5,
     "carburant_l": 4.9,
-    "cout_carburant_eur": 8.58,
+    "cout_carburant_eur": 9.52,
     "co2_kg": 11.32,
     "distance_urbaine_km": 5.91,
     "routes_empruntees": [
@@ -28,7 +28,7 @@
     "temps_min": 109.4,
     "vitesse_moyenne_kmh": 52.4,
     "carburant_l": 6.53,
-    "cout_carburant_eur": 11.44,
+    "cout_carburant_eur": 12.7,
     "co2_kg": 15.09,
     "distance_urbaine_km": 13.05,
     "routes_empruntees": [
@@ -49,7 +49,7 @@
     "delta_km": 22.29,
     "delta_temps_min": 56.8,
     "delta_carburant_l": 1.63,
-    "delta_cout_eur": 2.86,
+    "delta_cout_eur": 3.18,
     "delta_co2_kg": 3.77,
     "delta_villages_traverses": 9,
     "delta_changements_de_route": 244
@@ -277,7 +277,7 @@
     {
       "cle": "cout",
       "label": "de carburant",
-      "valeur": 2.86,
+      "valeur": 3.18,
       "unite": "EUR"
     },
     {
@@ -312,6 +312,5 @@
       "critair_4_5": 11.25
     },
     "source": null
-  },
-  "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/pairi_daiza.png"
+  }
 }

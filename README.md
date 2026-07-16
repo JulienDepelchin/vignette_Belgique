@@ -178,9 +178,11 @@ distance égale.
 Carbone / EEA). Configurable dans `config.CO2_FACTOR_KG_PER_L` (une valeur
 diesel 2,51 est aussi fournie si besoin).
 
-**Coût** : `carburant_l × prix_eur_l`. Prix par défaut 1,75 €/L
-(`config.PRIX_CARBURANT_EUR_L`) — **hypothèse éditoriale à ajuster au prix du
-jour**, ce n'est pas une donnée mesurée.
+**Coût** : `carburant_l × prix_eur_l`. Prix relevé le 16/07/2026 (moyenne
+France) : 1,943 €/L essence (SP95-E10), 2,016 €/L diesel
+(`config.PRIX_CARBURANT_EUR_L_PAR_TYPE`) — **le prix du carburant est
+volatil, cette valeur doit être rafraîchie régulièrement avant publication**,
+ce n'est pas une donnée mesurée en continu.
 
 **Segments non classifiés (cassures)** : reçoivent la vitesse moyenne globale
 du trajet comme repli pour le calcul de consommation (faute de vitesse réelle

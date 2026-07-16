@@ -7,7 +7,7 @@
     "temps_min": 30.5,
     "vitesse_moyenne_kmh": 56.0,
     "carburant_l": 1.84,
-    "cout_carburant_eur": 3.22,
+    "cout_carburant_eur": 3.57,
     "co2_kg": 4.25,
     "distance_urbaine_km": 5.6,
     "routes_empruntees": [
@@ -25,7 +25,7 @@
     "temps_min": 39.3,
     "vitesse_moyenne_kmh": 45.7,
     "carburant_l": 2.06,
-    "cout_carburant_eur": 3.61,
+    "cout_carburant_eur": 4.0,
     "co2_kg": 4.76,
     "distance_urbaine_km": 8.81,
     "routes_empruntees": [
@@ -45,7 +45,7 @@
     "delta_km": 1.48,
     "delta_temps_min": 8.8,
     "delta_carburant_l": 0.22,
-    "delta_cout_eur": 0.39,
+    "delta_cout_eur": 0.43,
     "delta_co2_kg": 0.51,
     "delta_villages_traverses": 4,
     "delta_changements_de_route": 72

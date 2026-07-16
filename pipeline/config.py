@@ -112,7 +112,14 @@ SPEED_HIGH_THRESHOLD_KMH = 90
 # ---------------------------------------------------------------------------
 # Hypotheses economiques (configurables, cf. README)
 # ---------------------------------------------------------------------------
-PRIX_CARBURANT_EUR_L = 1.75  # essence, hypothese editoriale -- a ajuster selon prix du jour
+# Prix constate le 16/07/2026 (moyenne France, source : releve utilisateur --
+# prix carburant tres volatil, a rafraichir regulierement avant publication,
+# ne pas laisser cette valeur figee des mois).
+PRIX_CARBURANT_EUR_L_PAR_TYPE = {
+    "essence": 1.943,  # SP95-E10
+    "diesel": 2.016,
+}
+PRIX_CARBURANT_EUR_L = PRIX_CARBURANT_EUR_L_PAR_TYPE["essence"]
 CO2_FACTOR_KG_PER_L = {
     # Source : facteurs d'emission standard combustion carburant (ADEME Base Carbone / EEA) :
     # essence (SP95/E10) ~2.31 kgCO2/L, diesel ~2.51-2.68 kgCO2/L selon la reference.

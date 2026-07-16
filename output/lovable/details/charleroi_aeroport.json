@@ -7,7 +7,7 @@
     "temps_min": 73.8,
     "vitesse_moyenne_kmh": 95.9,
     "carburant_l": 8.02,
-    "cout_carburant_eur": 14.03,
+    "cout_carburant_eur": 15.58,
     "co2_kg": 18.52,
     "distance_urbaine_km": 5.99,
     "routes_empruntees": [
@@ -27,7 +27,7 @@
     "temps_min": 290.8,
     "vitesse_moyenne_kmh": 46.6,
     "carburant_l": 15.93,
-    "cout_carburant_eur": 27.89,
+    "cout_carburant_eur": 30.96,
     "co2_kg": 36.81,
     "distance_urbaine_km": 32.4,
     "routes_empruntees": [
@@ -49,7 +49,7 @@
     "delta_km": 107.68,
     "delta_temps_min": 217.0,
     "delta_carburant_l": 7.91,
-    "delta_cout_eur": 13.86,
+    "delta_cout_eur": 15.38,
     "delta_co2_kg": 18.29,
     "delta_villages_traverses": 41,
     "delta_changements_de_route": 709
@@ -531,7 +531,7 @@
     {
       "cle": "cout",
       "label": "de carburant",
-      "valeur": 13.86,
+      "valeur": 15.38,
       "unite": "EUR"
     },
     {
@@ -566,6 +566,5 @@
       "critair_4_5": 11.25
     },
     "source": null
-  },
-  "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/charleroi_aeroport.png"
+  }
 }
