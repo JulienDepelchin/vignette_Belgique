@@ -9,6 +9,11 @@ data/osm_roads.gpkg
 data/osm_communes.gpkg
 data/classification_unifiee.gpkg
 
+# Source Bruxelles Mobilite brute (regenerable via scripts/320_fetch_merge_brussels.py)
+# et son fichier intermediaire de telechargement
+data/bruxelles_road_management.gpkg
+data/_tmp_*
+
 # Caches de collecte intermediaires (Overpass, ArcGIS REST PICC/Wegenregister)
 # -- pas necessaires a la reproduction du produit final, cf. brief_vignette_belgique.md
 data/flandre/

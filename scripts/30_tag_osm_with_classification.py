@@ -1,6 +1,7 @@
 """
 Tague chaque way OSM `highway=*` dans la zone d'interet en fonction de la
-classification officielle (PICC/Wegenregister deja recuperee) : les troncons
+classification officielle (PICC Wallonie + Wegenregister Flandre + road_management
+Bruxelles Mobilite, cf. scripts/320_fetch_merge_brussels.py) : les troncons
 soumis a la vignette (regional) recoivent `motor_vehicle=no`, une restriction
 d'acces OSM standard que le profil "car" par defaut de GraphHopper respecte
 nativement - pas besoin d'EncodedValue custom ni de build Java personnalise.

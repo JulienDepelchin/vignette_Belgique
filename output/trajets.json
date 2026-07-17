@@ -1618,5 +1618,382 @@
         "type": "arrivee"
       }
     ]
+  },
+  {
+    "id": "zaventem",
+    "nom": "Aeroport de Zaventem",
+    "depart": "Lille",
+    "avec": {
+      "distance_km": 123.86,
+      "temps_min": 90.5,
+      "vitesse_moyenne_kmh": 82.1,
+      "carburant_l": 8.26,
+      "cout_carburant_eur": 16.05,
+      "co2_kg": 19.08,
+      "distance_urbaine_km": 10.2,
+      "routes_empruntees": [
+        "E429",
+        "A 27",
+        "E42",
+        "R0",
+        "N203a",
+        "E40",
+        "R22",
+        "A 1a",
+        "N23",
+        "R20"
+      ],
+      "geojson": "geojson/zaventem_avec.geojson",
+      "gpx": "gpx/zaventem_avec.gpx",
+      "methode": "route_unique",
+      "nb_cassures_detectees": 0
+    },
+    "sans": {
+      "distance_km": 169.91,
+      "temps_min": 238.7,
+      "vitesse_moyenne_kmh": 42.7,
+      "carburant_l": 11.55,
+      "cout_carburant_eur": 22.44,
+      "co2_kg": 26.68,
+      "distance_urbaine_km": 32.56,
+      "routes_empruntees": [
+        "Communales",
+        "M 660",
+        "M 670",
+        "M 9",
+        "N462",
+        "M 760",
+        "M 6"
+      ],
+      "geojson": "geojson/zaventem_sans.geojson",
+      "gpx": "gpx/zaventem_sans.gpx",
+      "methode": "legwise_gpx",
+      "nb_cassures_detectees": 2
+    },
+    "delta": {
+      "delta_km": 46.05,
+      "delta_temps_min": 148.2,
+      "delta_carburant_l": 3.29,
+      "delta_cout_eur": 6.39,
+      "delta_co2_kg": 7.6,
+      "delta_villages_traverses": 26,
+      "delta_changements_de_route": 623
+    },
+    "analyse": {
+      "communes_traversees": [
+        "Aalst",
+        "Brakel",
+        "Buggenhout",
+        "Celles",
+        "Croix",
+        "Erpe-Mere",
+        "Estaimpuis",
+        "Herzele",
+        "Horebeke",
+        "Kampenhout",
+        "Kapelle-op-den-Bos",
+        "Kluisbergen",
+        "Kortenberg",
+        "La Madeleine",
+        "Lebbeke",
+        "Leers",
+        "Lille",
+        "Londerzeel",
+        "Maarkedal",
+        "Marcq-en-Barœul",
+        "Mechelen",
+        "Mont-de-l'Enclus",
+        "Oudenaarde",
+        "Pecq",
+        "Roubaix",
+        "Villeneuve-d'Ascq",
+        "Wasquehal",
+        "Zaventem",
+        "Zemst",
+        "Zottegem",
+        "Zwalm"
+      ],
+      "nb_communes_traversees": 31,
+      "villages_traverses": [
+        "Belva",
+        "Bergheid",
+        "Bontegem",
+        "Buggenhout",
+        "Elewijt",
+        "Elst",
+        "Erpe",
+        "Erps",
+        "Erps-Kwerps",
+        "Escanaffles",
+        "Euralille",
+        "Hanaarden",
+        "Herdersem",
+        "Herzele",
+        "Hérinnes-lez-Pecq",
+        "Kampelaar",
+        "Kapelle-op-den-Bos",
+        "Kruisabeel",
+        "Kwaremont",
+        "Leers",
+        "Leers-Nord",
+        "Lille",
+        "Londerzeel",
+        "Mere",
+        "Nederokkerzeel",
+        "Nukerke",
+        "Opstal",
+        "Oxdonk",
+        "Pottes",
+        "Ressegem",
+        "Ruisbeek",
+        "Saint-Léger",
+        "Sint-Goriks-Oudenhove",
+        "Warcoing",
+        "Weerde",
+        "Zegelsem",
+        "Zemst",
+        "Zottegem"
+      ],
+      "nb_villages_traverses": 38,
+      "nb_giratoires": 30,
+      "nb_changements_de_route": 668,
+      "nb_feux": 140,
+      "nb_passages_a_niveau": 11,
+      "distance_communale_km": 151.32,
+      "distance_departementale_km": 0.0,
+      "distance_nationale_regionale_km": 18.54,
+      "distance_autoroute_km": 0.0,
+      "distance_ring_km": 0.0,
+      "distance_type_inconnu_km": 0.05,
+      "distance_urbaine_km": 32.56,
+      "temps_moins_50kmh_min": 169.0,
+      "temps_plus_90kmh_min": 0.0,
+      "vitesse_moyenne_kmh": 42.7,
+      "vitesse_mediane_kmh": 46.0
+    },
+    "etapes": [
+      {
+        "heure": "08:00",
+        "lieu": "Lille",
+        "position_km": 0.0,
+        "type": "depart"
+      },
+      {
+        "heure": "08:02",
+        "lieu": "Euralille",
+        "position_km": 1.43,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "08:23",
+        "lieu": "Leers",
+        "position_km": 16.72,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "08:27",
+        "lieu": "Leers-Nord",
+        "position_km": 19.38,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "08:28",
+        "lieu": "Belva",
+        "position_km": 20.5,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "08:33",
+        "lieu": "Saint-Léger",
+        "position_km": 23.89,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "08:37",
+        "lieu": "Warcoing",
+        "position_km": 26.47,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "08:39",
+        "lieu": "Hérinnes-lez-Pecq",
+        "position_km": 28.12,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "08:46",
+        "lieu": "Pottes",
+        "position_km": 32.87,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "08:52",
+        "lieu": "Escanaffles",
+        "position_km": 37.11,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "09:04",
+        "lieu": "Kwaremont",
+        "position_km": 46.05,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "09:18",
+        "lieu": "Nukerke",
+        "position_km": 56.33,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "09:35",
+        "lieu": "Zegelsem",
+        "position_km": 68.43,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "09:38",
+        "lieu": "Elst",
+        "position_km": 70.51,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "09:47",
+        "lieu": "Sint-Goriks-Oudenhove",
+        "position_km": 76.33,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "09:50",
+        "lieu": "Zottegem",
+        "position_km": 78.8,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "10:02",
+        "lieu": "Herzele",
+        "position_km": 87.4,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "10:04",
+        "lieu": "Ressegem",
+        "position_km": 88.99,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "10:13",
+        "lieu": "Mere",
+        "position_km": 95.01,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "10:15",
+        "lieu": "Erpe",
+        "position_km": 96.47,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "10:29",
+        "lieu": "Herdersem",
+        "position_km": 106.72,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "10:32",
+        "lieu": "Kruisabeel",
+        "position_km": 108.41,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "10:33",
+        "lieu": "Hanaarden",
+        "position_km": 109.58,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "10:43",
+        "lieu": "Opstal",
+        "position_km": 116.67,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "10:47",
+        "lieu": "Buggenhout",
+        "position_km": 119.51,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "10:58",
+        "lieu": "Londerzeel",
+        "position_km": 127.47,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "11:05",
+        "lieu": "Kapelle-op-den-Bos",
+        "position_km": 132.16,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "11:06",
+        "lieu": "Oxdonk",
+        "position_km": 132.89,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "11:18",
+        "lieu": "Zemst",
+        "position_km": 141.46,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "11:21",
+        "lieu": "Weerde",
+        "position_km": 143.79,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "11:24",
+        "lieu": "Elewijt",
+        "position_km": 145.63,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "11:28",
+        "lieu": "Bergheid",
+        "position_km": 148.35,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "11:30",
+        "lieu": "Kampelaar",
+        "position_km": 150.1,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "11:34",
+        "lieu": "Ruisbeek",
+        "position_km": 152.81,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "11:38",
+        "lieu": "Nederokkerzeel",
+        "position_km": 156.18,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "11:41",
+        "lieu": "Erps",
+        "position_km": 158.02,
+        "type": "traversee_village"
+      },
+      {
+        "heure": "11:58",
+        "lieu": "Aeroport de Zaventem",
+        "position_km": 170.26,
+        "type": "arrivee"
+      }
+    ]
   }
 ]
