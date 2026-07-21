@@ -8,7 +8,7 @@ Un itinéraire « sans vignette » reste 100 % légal, mais pas toujours aussi c
 
 ## Ce que ce comparateur ne fait pas
 
-Les destinations présentées sont des exemples choisis par la rédaction, pas une liste exhaustive de la Belgique. Lille sert de point de départ pour l'ensemble des trajets. Un départ de Douai, de Valenciennes ou de Dunkerque donnerait des distances et des temps différents.
+Les destinations présentées sont des exemples choisis par la rédaction, pas une liste exhaustive de la Belgique. Les trajets partent de Lille, Dunkerque ou Valenciennes selon les cas, chaque fiche précise son point de départ. Un départ d'ailleurs dans la région donnerait des distances et des temps différents.
 
 ## Avertissement
 
