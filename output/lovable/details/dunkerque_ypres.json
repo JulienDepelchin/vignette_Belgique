@@ -1,0 +1,207 @@
+{
+  "id": "dunkerque_ypres",
+  "nom": "Ypres",
+  "depart": "Dunkerque",
+  "avec": {
+    "distance_km": 48.6,
+    "temps_min": 49.5,
+    "vitesse_moyenne_kmh": 58.9,
+    "carburant_l": 2.96,
+    "cout_carburant_eur": 5.75,
+    "co2_kg": 6.83,
+    "distance_urbaine_km": 10.05,
+    "routes_empruntees": [
+      "N308",
+      "D 916A",
+      "N38",
+      "D 72",
+      "D 4",
+      "N347",
+      "D 2"
+    ],
+    "geojson": "geojson/dunkerque_ypres_avec.geojson",
+    "gpx": "gpx/dunkerque_ypres_avec.gpx",
+    "methode": "route_unique",
+    "nb_cassures_detectees": 0
+  },
+  "sans": {
+    "distance_km": 54.93,
+    "temps_min": 69.7,
+    "vitesse_moyenne_kmh": 47.3,
+    "carburant_l": 3.59,
+    "cout_carburant_eur": 6.98,
+    "co2_kg": 8.3,
+    "distance_urbaine_km": 6.81,
+    "routes_empruntees": [
+      "Communales",
+      "D 3",
+      "D 72",
+      "D 2"
+    ],
+    "geojson": "geojson/dunkerque_ypres_sans.geojson",
+    "gpx": "gpx/dunkerque_ypres_sans.gpx",
+    "methode": "legwise_gpx",
+    "nb_cassures_detectees": 0
+  },
+  "delta": {
+    "delta_km": 6.33,
+    "delta_temps_min": 20.2,
+    "delta_carburant_l": 0.63,
+    "delta_cout_eur": 1.23,
+    "delta_co2_kg": 1.47,
+    "delta_villages_traverses": -9,
+    "delta_changements_de_route": 167
+  },
+  "analyse": {
+    "communes_traversees": [
+      "Alveringem",
+      "Coudekerque-Branche",
+      "Dunkerque",
+      "Hondschoote",
+      "Hoymille",
+      "Ieper",
+      "Lo-Reninge",
+      "Téteghem-Coudekerque-Village",
+      "Warhem"
+    ],
+    "nb_communes_traversees": 9,
+    "villages_traverses": [
+      "Benkies Mille",
+      "Dunkerque",
+      "Hameau des Neiges",
+      "Ieper",
+      "Pollinkhove",
+      "Reninge",
+      "Zuidschote"
+    ],
+    "nb_villages_traverses": 7,
+    "nb_giratoires": 6,
+    "nb_changements_de_route": 201,
+    "nb_feux": 6,
+    "nb_passages_a_niveau": 1,
+    "distance_communale_km": 39.54,
+    "distance_departementale_km": 14.42,
+    "distance_nationale_regionale_km": 0.98,
+    "distance_autoroute_km": 0.0,
+    "distance_ring_km": 0.0,
+    "distance_type_inconnu_km": 0.0,
+    "distance_urbaine_km": 6.81,
+    "temps_moins_50kmh_min": 34.1,
+    "temps_plus_90kmh_min": 0.0,
+    "vitesse_moyenne_kmh": 47.3,
+    "vitesse_mediane_kmh": 50.0
+  },
+  "etapes": [
+    {
+      "heure": "08:00",
+      "lieu": "Dunkerque",
+      "position_km": 0.0,
+      "type": "depart"
+    },
+    {
+      "heure": "08:11",
+      "lieu": "Hameau des Neiges",
+      "position_km": 8.83,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:13",
+      "lieu": "Benkies Mille",
+      "position_km": 10.82,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:40",
+      "lieu": "Pollinkhove",
+      "position_km": 32.03,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:49",
+      "lieu": "Reninge",
+      "position_km": 39.03,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:55",
+      "lieu": "Zuidschote",
+      "position_km": 43.93,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:09",
+      "lieu": "Ypres",
+      "position_km": 55.04,
+      "type": "arrivee"
+    }
+  ],
+  "bbox": [
+    2.376845,
+    50.848086,
+    2.884699,
+    51.034412
+  ],
+  "geo": {
+    "avec": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/geo/dunkerque_ypres_avec.geojson",
+    "sans": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/geo/dunkerque_ypres_sans.geojson"
+  },
+  "resume_delta": [
+    {
+      "cle": "distance",
+      "label": "de distance",
+      "valeur": 6.33,
+      "unite": "km"
+    },
+    {
+      "cle": "temps",
+      "label": "de trajet",
+      "valeur": 20.2,
+      "unite": "min"
+    },
+    {
+      "cle": "carburant",
+      "label": "de carburant",
+      "valeur": 0.63,
+      "unite": "L"
+    },
+    {
+      "cle": "cout",
+      "label": "de carburant",
+      "valeur": 1.23,
+      "unite": "EUR"
+    },
+    {
+      "cle": "co2",
+      "label": "de CO2 emis",
+      "valeur": 1.47,
+      "unite": "kg"
+    },
+    {
+      "cle": "villages",
+      "label": "villages traverses",
+      "valeur": -9,
+      "unite": ""
+    },
+    {
+      "cle": "carrefours",
+      "label": "carrefours",
+      "valeur": 167,
+      "unite": ""
+    }
+  ],
+  "prix_vignette": {
+    "devise": "EUR",
+    "annuel": {
+      "zero_emission": 90,
+      "critair_3": 100,
+      "critair_4_5": 125
+    },
+    "journalier": {
+      "zero_emission": 8.1,
+      "critair_3": null,
+      "critair_4_5": 11.25
+    },
+    "source": null
+  },
+  "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/dunkerque_ypres.png"
+}

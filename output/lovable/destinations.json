@@ -306,5 +306,27 @@
       50.75859
     ],
     "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/valenciennes_charleroi_aeroport.png"
+  },
+  {
+    "id": "dunkerque_ypres",
+    "nom": "Ypres",
+    "depart": "Dunkerque",
+    "avec": {
+      "temps_min": 49.5,
+      "distance_km": 48.6
+    },
+    "sans": {
+      "temps_min": 69.7,
+      "distance_km": 54.93
+    },
+    "delta_km": 6.33,
+    "delta_temps_min": 20.2,
+    "bbox": [
+      2.376845,
+      50.848086,
+      2.884699,
+      51.034412
+    ],
+    "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/dunkerque_ypres.png"
   }
 ]
