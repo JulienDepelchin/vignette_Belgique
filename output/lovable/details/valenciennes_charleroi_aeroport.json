@@ -1,0 +1,437 @@
+{
+  "id": "valenciennes_charleroi_aeroport",
+  "nom": "Aeroport de Charleroi",
+  "depart": "Valenciennes",
+  "avec": {
+    "distance_km": 77.69,
+    "temps_min": 52.3,
+    "vitesse_moyenne_kmh": 89.0,
+    "carburant_l": 5.29,
+    "cout_carburant_eur": 10.29,
+    "co2_kg": 12.23,
+    "distance_urbaine_km": 4.68,
+    "routes_empruntees": [
+      "E42",
+      "E19",
+      "D 935",
+      "A 2",
+      "D 50"
+    ],
+    "geojson": "geojson/valenciennes_charleroi_aeroport_avec.geojson",
+    "gpx": "gpx/valenciennes_charleroi_aeroport_avec.gpx",
+    "methode": "route_unique",
+    "nb_cassures_detectees": 0
+  },
+  "sans": {
+    "distance_km": 161.94,
+    "temps_min": 244.4,
+    "vitesse_moyenne_kmh": 39.8,
+    "carburant_l": 11.41,
+    "cout_carburant_eur": 22.17,
+    "co2_kg": 26.35,
+    "distance_urbaine_km": 26.89,
+    "routes_empruntees": [
+      "Communales",
+      "D 935",
+      "A 2",
+      "D 50"
+    ],
+    "geojson": "geojson/valenciennes_charleroi_aeroport_sans.geojson",
+    "gpx": "gpx/valenciennes_charleroi_aeroport_sans.gpx",
+    "methode": "legwise_gpx",
+    "nb_cassures_detectees": 2
+  },
+  "delta": {
+    "delta_km": 84.25,
+    "delta_temps_min": 192.1,
+    "delta_carburant_l": 6.12,
+    "delta_cout_eur": 11.88,
+    "delta_co2_kg": 14.12,
+    "delta_villages_traverses": 27,
+    "delta_changements_de_route": 546
+  },
+  "analyse": {
+    "communes_traversees": [
+      "Beersel",
+      "Belœil",
+      "Bernissart",
+      "Braine-l'Alleud",
+      "Bruay-sur-l'Escaut",
+      "Brugelette",
+      "Charleroi",
+      "Chièvres",
+      "Crespin",
+      "Enghien - Edingen",
+      "Genappe",
+      "Halle",
+      "Hensies",
+      "Lasne",
+      "Lens",
+      "Les Bons Villers",
+      "Onnaing",
+      "Ottignies-Louvain-la-Neuve",
+      "Pepingen",
+      "Quarouble",
+      "Rebecq",
+      "Saint-Aybert",
+      "Saint-Ghislain",
+      "Saint-Saulve",
+      "Silly",
+      "Sint-Genesius-Rode - Rhode-Saint-Genèse",
+      "Tubize",
+      "Valenciennes",
+      "Vicq",
+      "Villers-la-Ville",
+      "Waterloo"
+    ],
+    "nb_communes_traversees": 31,
+    "villages_traverses": [
+      "Bas Jaune",
+      "Bauffe",
+      "Belœil",
+      "Bierghes",
+      "Bousval",
+      "Buizingen",
+      "Cambron-Casteau",
+      "Cambron-Saint-Vincent",
+      "Graty",
+      "Hautrage",
+      "Hembise",
+      "Houlette",
+      "Journaux",
+      "Kesterbeek",
+      "La Marache",
+      "Le Happart",
+      "Le Ménil",
+      "Le Roussart",
+      "Les 4 chênes",
+      "Les Bons Villers",
+      "Les Fays",
+      "Les Sartis",
+      "Les Écacheries",
+      "Lombise",
+      "Mellet",
+      "Neuville",
+      "Pommerœul",
+      "Pont du Calvaire",
+      "Sclage",
+      "Sint-Genesius-Rode - Rhode-Saint-Genèse",
+      "Sollenberg",
+      "Stambruges",
+      "Thoricourt",
+      "Valenciennes",
+      "Ville-Pommerœul",
+      "Villers-Perwin",
+      "Wayaux"
+    ],
+    "nb_villages_traverses": 37,
+    "nb_giratoires": 40,
+    "nb_changements_de_route": 577,
+    "nb_feux": 37,
+    "nb_passages_a_niveau": 7,
+    "distance_communale_km": 143.1,
+    "distance_departementale_km": 9.63,
+    "distance_nationale_regionale_km": 4.57,
+    "distance_autoroute_km": 4.64,
+    "distance_ring_km": 0.0,
+    "distance_type_inconnu_km": 0.0,
+    "distance_urbaine_km": 26.89,
+    "temps_moins_50kmh_min": 177.5,
+    "temps_plus_90kmh_min": 1.9,
+    "vitesse_moyenne_kmh": 39.8,
+    "vitesse_mediane_kmh": 46.0
+  },
+  "etapes": [
+    {
+      "heure": "08:00",
+      "lieu": "Valenciennes",
+      "position_km": 0.0,
+      "type": "depart"
+    },
+    {
+      "heure": "08:26",
+      "lieu": "Neuville",
+      "position_km": 17.32,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:29",
+      "lieu": "Les Sartis",
+      "position_km": 19.56,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:34",
+      "lieu": "Pommerœul",
+      "position_km": 22.97,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:36",
+      "lieu": "Les Fays",
+      "position_km": 24.09,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:37",
+      "lieu": "Ville-Pommerœul",
+      "position_km": 24.62,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:42",
+      "lieu": "Hautrage",
+      "position_km": 28.23,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:47",
+      "lieu": "Le Happart",
+      "position_km": 31.6,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:50",
+      "lieu": "Stambruges",
+      "position_km": 33.53,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:54",
+      "lieu": "Les Écacheries",
+      "position_km": 36.26,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:57",
+      "lieu": "Belœil",
+      "position_km": 38.22,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:16",
+      "lieu": "Bauffe",
+      "position_km": 50.9,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:21",
+      "lieu": "Cambron-Casteau",
+      "position_km": 53.97,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:25",
+      "lieu": "Cambron-Saint-Vincent",
+      "position_km": 57.04,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:28",
+      "lieu": "Hembise",
+      "position_km": 58.46,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:31",
+      "lieu": "Lombise",
+      "position_km": 60.69,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:33",
+      "lieu": "Thoricourt",
+      "position_km": 62.36,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:39",
+      "lieu": "Graty",
+      "position_km": 66.31,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "10:01",
+      "lieu": "Bierghes",
+      "position_km": 80.53,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "10:24",
+      "lieu": "Buizingen",
+      "position_km": 95.61,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "10:27",
+      "lieu": "Sollenberg",
+      "position_km": 98.1,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "10:30",
+      "lieu": "Kesterbeek",
+      "position_km": 99.57,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "10:37",
+      "lieu": "Sint-Genesius-Rode - Rhode-Saint-Genèse",
+      "position_km": 104.38,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "10:53",
+      "lieu": "Le Roussart",
+      "position_km": 115.29,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "10:58",
+      "lieu": "Le Ménil",
+      "position_km": 118.41,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "11:11",
+      "lieu": "La Marache",
+      "position_km": 127.23,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "11:26",
+      "lieu": "Sclage",
+      "position_km": 136.72,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "11:28",
+      "lieu": "Bousval",
+      "position_km": 138.63,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "11:40",
+      "lieu": "Les 4 chênes",
+      "position_km": 146.42,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "11:43",
+      "lieu": "Houlette",
+      "position_km": 148.03,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "11:46",
+      "lieu": "Bas Jaune",
+      "position_km": 150.11,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "11:52",
+      "lieu": "Villers-Perwin",
+      "position_km": 154.39,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "11:53",
+      "lieu": "Les Bons Villers",
+      "position_km": 154.87,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "11:57",
+      "lieu": "Mellet",
+      "position_km": 157.34,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "12:00",
+      "lieu": "Wayaux",
+      "position_km": 159.42,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "12:01",
+      "lieu": "Journaux",
+      "position_km": 160.19,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "12:04",
+      "lieu": "Aeroport de Charleroi",
+      "position_km": 162.22,
+      "type": "arrivee"
+    }
+  ],
+  "bbox": [
+    3.523114,
+    50.355676,
+    4.527073,
+    50.75859
+  ],
+  "geo": {
+    "avec": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/geo/valenciennes_charleroi_aeroport_avec.geojson",
+    "sans": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/geo/valenciennes_charleroi_aeroport_sans.geojson"
+  },
+  "resume_delta": [
+    {
+      "cle": "distance",
+      "label": "de distance",
+      "valeur": 84.25,
+      "unite": "km"
+    },
+    {
+      "cle": "temps",
+      "label": "de trajet",
+      "valeur": 192.1,
+      "unite": "min"
+    },
+    {
+      "cle": "carburant",
+      "label": "de carburant",
+      "valeur": 6.12,
+      "unite": "L"
+    },
+    {
+      "cle": "cout",
+      "label": "de carburant",
+      "valeur": 11.88,
+      "unite": "EUR"
+    },
+    {
+      "cle": "co2",
+      "label": "de CO2 emis",
+      "valeur": 14.12,
+      "unite": "kg"
+    },
+    {
+      "cle": "villages",
+      "label": "villages traverses",
+      "valeur": 27,
+      "unite": ""
+    },
+    {
+      "cle": "carrefours",
+      "label": "carrefours",
+      "valeur": 546,
+      "unite": ""
+    }
+  ],
+  "prix_vignette": {
+    "devise": "EUR",
+    "annuel": {
+      "zero_emission": 90,
+      "critair_3": 100,
+      "critair_4_5": 125
+    },
+    "journalier": {
+      "zero_emission": 8.1,
+      "critair_3": null,
+      "critair_4_5": 11.25
+    },
+    "source": null
+  },
+  "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/valenciennes_charleroi_aeroport.png"
+}

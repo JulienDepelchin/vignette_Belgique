@@ -1,0 +1,247 @@
+{
+  "id": "dunkerque_floralux_dadizele",
+  "nom": "Floralux Dadizele",
+  "depart": "Dunkerque",
+  "avec": {
+    "distance_km": 70.88,
+    "temps_min": 64.5,
+    "vitesse_moyenne_kmh": 65.9,
+    "carburant_l": 4.42,
+    "cout_carburant_eur": 8.59,
+    "co2_kg": 10.21,
+    "distance_urbaine_km": 5.61,
+    "routes_empruntees": [
+      "N8",
+      "A19",
+      "D 3",
+      "N38",
+      "D 72",
+      "N32",
+      "N364",
+      "D 2"
+    ],
+    "geojson": "geojson/dunkerque_floralux_dadizele_avec.geojson",
+    "gpx": "gpx/dunkerque_floralux_dadizele_avec.gpx",
+    "methode": "route_unique",
+    "nb_cassures_detectees": 0
+  },
+  "sans": {
+    "distance_km": 75.9,
+    "temps_min": 97.1,
+    "vitesse_moyenne_kmh": 46.9,
+    "carburant_l": 4.97,
+    "cout_carburant_eur": 9.66,
+    "co2_kg": 11.49,
+    "distance_urbaine_km": 9.65,
+    "routes_empruntees": [
+      "Communales",
+      "D 3",
+      "D 72",
+      "D 2"
+    ],
+    "geojson": "geojson/dunkerque_floralux_dadizele_sans.geojson",
+    "gpx": "gpx/dunkerque_floralux_dadizele_sans.gpx",
+    "methode": "legwise_gpx",
+    "nb_cassures_detectees": 1
+  },
+  "delta": {
+    "delta_km": 5.02,
+    "delta_temps_min": 32.6,
+    "delta_carburant_l": 0.55,
+    "delta_cout_eur": 1.07,
+    "delta_co2_kg": 1.28,
+    "delta_villages_traverses": 3,
+    "delta_changements_de_route": 230
+  },
+  "analyse": {
+    "communes_traversees": [
+      "Alveringem",
+      "Coudekerque-Branche",
+      "Dunkerque",
+      "Hondschoote",
+      "Houthulst",
+      "Hoymille",
+      "Ieper",
+      "Langemark-Poelkapelle",
+      "Ledegem",
+      "Lo-Reninge",
+      "Moorslede",
+      "Téteghem-Coudekerque-Village",
+      "Warhem",
+      "Zonnebeke"
+    ],
+    "nb_communes_traversees": 14,
+    "villages_traverses": [
+      "'s Gravenstafel",
+      "Benkies Mille",
+      "Bikschote",
+      "Dunkerque",
+      "Hameau des Neiges",
+      "Langemark",
+      "Ledegem",
+      "Moorslede",
+      "Noordschote",
+      "Pollinkhove",
+      "Reninge"
+    ],
+    "nb_villages_traverses": 11,
+    "nb_giratoires": 10,
+    "nb_changements_de_route": 266,
+    "nb_feux": 6,
+    "nb_passages_a_niveau": 1,
+    "distance_communale_km": 61.43,
+    "distance_departementale_km": 14.42,
+    "distance_nationale_regionale_km": 0.06,
+    "distance_autoroute_km": 0.0,
+    "distance_ring_km": 0.0,
+    "distance_type_inconnu_km": 0.0,
+    "distance_urbaine_km": 9.65,
+    "temps_moins_50kmh_min": 50.7,
+    "temps_plus_90kmh_min": 0.0,
+    "vitesse_moyenne_kmh": 46.9,
+    "vitesse_mediane_kmh": 60.0
+  },
+  "etapes": [
+    {
+      "heure": "08:00",
+      "lieu": "Dunkerque",
+      "position_km": 0.0,
+      "type": "depart"
+    },
+    {
+      "heure": "08:11",
+      "lieu": "Hameau des Neiges",
+      "position_km": 8.83,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:13",
+      "lieu": "Benkies Mille",
+      "position_km": 10.82,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:40",
+      "lieu": "Pollinkhove",
+      "position_km": 32.03,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:49",
+      "lieu": "Reninge",
+      "position_km": 39.04,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:51",
+      "lieu": "Noordschote",
+      "position_km": 40.7,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:00",
+      "lieu": "Bikschote",
+      "position_km": 47.38,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:05",
+      "lieu": "Langemark",
+      "position_km": 51.44,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:13",
+      "lieu": "'s Gravenstafel",
+      "position_km": 57.61,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:25",
+      "lieu": "Moorslede",
+      "position_km": 66.66,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:34",
+      "lieu": "Ledegem",
+      "position_km": 73.68,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:37",
+      "lieu": "Floralux Dadizele",
+      "position_km": 76.05,
+      "type": "arrivee"
+    }
+  ],
+  "bbox": [
+    2.376845,
+    50.816035,
+    3.127342,
+    51.034412
+  ],
+  "geo": {
+    "avec": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/geo/dunkerque_floralux_dadizele_avec.geojson",
+    "sans": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/geo/dunkerque_floralux_dadizele_sans.geojson"
+  },
+  "resume_delta": [
+    {
+      "cle": "distance",
+      "label": "de distance",
+      "valeur": 5.02,
+      "unite": "km"
+    },
+    {
+      "cle": "temps",
+      "label": "de trajet",
+      "valeur": 32.6,
+      "unite": "min"
+    },
+    {
+      "cle": "carburant",
+      "label": "de carburant",
+      "valeur": 0.55,
+      "unite": "L"
+    },
+    {
+      "cle": "cout",
+      "label": "de carburant",
+      "valeur": 1.07,
+      "unite": "EUR"
+    },
+    {
+      "cle": "co2",
+      "label": "de CO2 emis",
+      "valeur": 1.28,
+      "unite": "kg"
+    },
+    {
+      "cle": "villages",
+      "label": "villages traverses",
+      "valeur": 3,
+      "unite": ""
+    },
+    {
+      "cle": "carrefours",
+      "label": "carrefours",
+      "valeur": 230,
+      "unite": ""
+    }
+  ],
+  "prix_vignette": {
+    "devise": "EUR",
+    "annuel": {
+      "zero_emission": 90,
+      "critair_3": 100,
+      "critair_4_5": 125
+    },
+    "journalier": {
+      "zero_emission": 8.1,
+      "critair_3": null,
+      "critair_4_5": 11.25
+    },
+    "source": null
+  },
+  "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/dunkerque_floralux_dadizele.png"
+}

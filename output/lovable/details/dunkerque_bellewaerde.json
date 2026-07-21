@@ -1,0 +1,225 @@
+{
+  "id": "dunkerque_bellewaerde",
+  "nom": "Bellewaerde",
+  "depart": "Dunkerque",
+  "avec": {
+    "distance_km": 53.57,
+    "temps_min": 53.7,
+    "vitesse_moyenne_kmh": 59.8,
+    "carburant_l": 3.24,
+    "cout_carburant_eur": 6.29,
+    "co2_kg": 7.48,
+    "distance_urbaine_km": 9.44,
+    "routes_empruntees": [
+      "N308",
+      "D 916A",
+      "N38",
+      "D 72",
+      "D 4",
+      "N347",
+      "N8",
+      "N37",
+      "N37b",
+      "D 2"
+    ],
+    "geojson": "geojson/dunkerque_bellewaerde_avec.geojson",
+    "gpx": "gpx/dunkerque_bellewaerde_avec.gpx",
+    "methode": "route_unique",
+    "nb_cassures_detectees": 0
+  },
+  "sans": {
+    "distance_km": 63.66,
+    "temps_min": 85.2,
+    "vitesse_moyenne_kmh": 44.8,
+    "carburant_l": 4.25,
+    "cout_carburant_eur": 8.26,
+    "co2_kg": 9.82,
+    "distance_urbaine_km": 7.67,
+    "routes_empruntees": [
+      "Communales",
+      "D 3",
+      "D 72",
+      "N8",
+      "D 2"
+    ],
+    "geojson": "geojson/dunkerque_bellewaerde_sans.geojson",
+    "gpx": "gpx/dunkerque_bellewaerde_sans.gpx",
+    "methode": "legwise_gpx",
+    "nb_cassures_detectees": 0
+  },
+  "delta": {
+    "delta_km": 10.09,
+    "delta_temps_min": 31.5,
+    "delta_carburant_l": 1.01,
+    "delta_cout_eur": 1.97,
+    "delta_co2_kg": 2.34,
+    "delta_villages_traverses": -7,
+    "delta_changements_de_route": 212
+  },
+  "analyse": {
+    "communes_traversees": [
+      "Alveringem",
+      "Coudekerque-Branche",
+      "Dunkerque",
+      "Hondschoote",
+      "Hoymille",
+      "Ieper",
+      "Lo-Reninge",
+      "Téteghem-Coudekerque-Village",
+      "Warhem",
+      "Zonnebeke"
+    ],
+    "nb_communes_traversees": 10,
+    "villages_traverses": [
+      "Benkies Mille",
+      "Dunkerque",
+      "Hameau des Neiges",
+      "Ieper",
+      "Pollinkhove",
+      "Reninge",
+      "Westhoek",
+      "Zuidschote"
+    ],
+    "nb_villages_traverses": 8,
+    "nb_giratoires": 9,
+    "nb_changements_de_route": 244,
+    "nb_feux": 7,
+    "nb_passages_a_niveau": 1,
+    "distance_communale_km": 47.41,
+    "distance_departementale_km": 14.42,
+    "distance_nationale_regionale_km": 1.84,
+    "distance_autoroute_km": 0.0,
+    "distance_ring_km": 0.0,
+    "distance_type_inconnu_km": 0.0,
+    "distance_urbaine_km": 7.67,
+    "temps_moins_50kmh_min": 48.0,
+    "temps_plus_90kmh_min": 0.0,
+    "vitesse_moyenne_kmh": 44.8,
+    "vitesse_mediane_kmh": 50.0
+  },
+  "etapes": [
+    {
+      "heure": "08:00",
+      "lieu": "Dunkerque",
+      "position_km": 0.0,
+      "type": "depart"
+    },
+    {
+      "heure": "08:11",
+      "lieu": "Hameau des Neiges",
+      "position_km": 8.83,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:14",
+      "lieu": "Benkies Mille",
+      "position_km": 10.82,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:42",
+      "lieu": "Pollinkhove",
+      "position_km": 32.03,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:52",
+      "lieu": "Reninge",
+      "position_km": 39.03,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:58",
+      "lieu": "Zuidschote",
+      "position_km": 43.93,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:12",
+      "lieu": "Ieper",
+      "position_km": 54.6,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:24",
+      "lieu": "Westhoek",
+      "position_km": 63.07,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:25",
+      "lieu": "Bellewaerde",
+      "position_km": 63.79,
+      "type": "arrivee"
+    }
+  ],
+  "bbox": [
+    2.376845,
+    50.842291,
+    2.962542,
+    51.034412
+  ],
+  "geo": {
+    "avec": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/geo/dunkerque_bellewaerde_avec.geojson",
+    "sans": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/geo/dunkerque_bellewaerde_sans.geojson"
+  },
+  "resume_delta": [
+    {
+      "cle": "distance",
+      "label": "de distance",
+      "valeur": 10.09,
+      "unite": "km"
+    },
+    {
+      "cle": "temps",
+      "label": "de trajet",
+      "valeur": 31.5,
+      "unite": "min"
+    },
+    {
+      "cle": "carburant",
+      "label": "de carburant",
+      "valeur": 1.01,
+      "unite": "L"
+    },
+    {
+      "cle": "cout",
+      "label": "de carburant",
+      "valeur": 1.97,
+      "unite": "EUR"
+    },
+    {
+      "cle": "co2",
+      "label": "de CO2 emis",
+      "valeur": 2.34,
+      "unite": "kg"
+    },
+    {
+      "cle": "villages",
+      "label": "villages traverses",
+      "valeur": -7,
+      "unite": ""
+    },
+    {
+      "cle": "carrefours",
+      "label": "carrefours",
+      "valeur": 212,
+      "unite": ""
+    }
+  ],
+  "prix_vignette": {
+    "devise": "EUR",
+    "annuel": {
+      "zero_emission": 90,
+      "critair_3": 100,
+      "critair_4_5": 125
+    },
+    "journalier": {
+      "zero_emission": 8.1,
+      "critair_3": null,
+      "critair_4_5": 11.25
+    },
+    "source": null
+  },
+  "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/dunkerque_bellewaerde.png"
+}

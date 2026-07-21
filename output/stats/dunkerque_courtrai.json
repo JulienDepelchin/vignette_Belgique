@@ -1,0 +1,177 @@
+{
+  "id": "dunkerque_courtrai",
+  "nom": "Courtrai",
+  "depart": "Dunkerque",
+  "avec": {
+    "distance_km": 77.87,
+    "temps_min": 69.3,
+    "vitesse_moyenne_kmh": 67.4,
+    "carburant_l": 4.91,
+    "cout_carburant_eur": 9.55,
+    "co2_kg": 11.35,
+    "distance_urbaine_km": 8.48,
+    "routes_empruntees": [
+      "A19",
+      "N8",
+      "D 3",
+      "N38",
+      "D 72",
+      "N364",
+      "D 2"
+    ],
+    "geojson": "geojson/dunkerque_courtrai_avec.geojson",
+    "gpx": "gpx/dunkerque_courtrai_avec.gpx",
+    "methode": "route_unique",
+    "nb_cassures_detectees": 0
+  },
+  "sans": {
+    "distance_km": 99.08,
+    "temps_min": 92.9,
+    "vitesse_moyenne_kmh": 64.0,
+    "carburant_l": 6.87,
+    "cout_carburant_eur": 13.36,
+    "co2_kg": 15.88,
+    "distance_urbaine_km": 9.78,
+    "routes_empruntees": [
+      "Communales",
+      "A 25",
+      "M 945",
+      "D 916",
+      "M 945A",
+      "N32b",
+      "M 7A",
+      "D 945 N"
+    ],
+    "geojson": "geojson/dunkerque_courtrai_sans.geojson",
+    "gpx": "gpx/dunkerque_courtrai_sans.gpx",
+    "methode": "legwise_gpx",
+    "nb_cassures_detectees": 0
+  },
+  "delta": {
+    "delta_km": 21.21,
+    "delta_temps_min": 23.6,
+    "delta_carburant_l": 1.96,
+    "delta_cout_eur": 3.81,
+    "delta_co2_kg": 4.53,
+    "delta_villages_traverses": -1,
+    "delta_changements_de_route": 214
+  },
+  "analyse": {
+    "communes_traversees": [
+      "Armentières",
+      "Bailleul",
+      "Bierne",
+      "Bousbecque",
+      "Cappelle-la-Grande",
+      "Comines",
+      "Coudekerque-Branche",
+      "Deûlémont",
+      "Dunkerque",
+      "Eecke",
+      "Flêtre",
+      "Frelinghien",
+      "Godewaersvelde",
+      "Halluin",
+      "Herzeele",
+      "Houplines",
+      "Kortrijk",
+      "Menen",
+      "Méteren",
+      "Nieppe",
+      "Quaëdypre",
+      "Socx",
+      "Steenvoorde",
+      "Steenwerck",
+      "Warneton",
+      "Wervicq-Sud",
+      "Wevelgem",
+      "Winnezeele",
+      "Wormhout",
+      "Wylder"
+    ],
+    "nb_communes_traversees": 30,
+    "villages_traverses": [
+      "Armentières",
+      "De Barakken",
+      "Deûlémont",
+      "Dunkerque",
+      "Houplines",
+      "Kortrijk",
+      "Le Petit Millebrugghe",
+      "Le Pont de Wylder",
+      "Menen"
+    ],
+    "nb_villages_traverses": 9,
+    "nb_giratoires": 33,
+    "nb_changements_de_route": 250,
+    "nb_feux": 56,
+    "nb_passages_a_niveau": 9,
+    "distance_communale_km": 21.68,
+    "distance_departementale_km": 5.92,
+    "distance_nationale_regionale_km": 27.95,
+    "distance_autoroute_km": 43.53,
+    "distance_ring_km": 0.0,
+    "distance_type_inconnu_km": 0.0,
+    "distance_urbaine_km": 9.78,
+    "temps_moins_50kmh_min": 44.1,
+    "temps_plus_90kmh_min": 22.6,
+    "vitesse_moyenne_kmh": 64.0,
+    "vitesse_mediane_kmh": 66.0
+  },
+  "etapes": [
+    {
+      "heure": "08:00",
+      "lieu": "Dunkerque",
+      "position_km": 0.0,
+      "type": "depart"
+    },
+    {
+      "heure": "08:07",
+      "lieu": "Le Petit Millebrugghe",
+      "position_km": 8.06,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:17",
+      "lieu": "Le Pont de Wylder",
+      "position_km": 18.89,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:54",
+      "lieu": "Armentières",
+      "position_km": 58.53,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "08:56",
+      "lieu": "Houplines",
+      "position_km": 60.69,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:02",
+      "lieu": "Deûlémont",
+      "position_km": 66.82,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:17",
+      "lieu": "De Barakken",
+      "position_km": 82.58,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:18",
+      "lieu": "Menen",
+      "position_km": 84.13,
+      "type": "traversee_village"
+    },
+    {
+      "heure": "09:32",
+      "lieu": "Courtrai",
+      "position_km": 99.25,
+      "type": "arrivee"
+    }
+  ]
+}

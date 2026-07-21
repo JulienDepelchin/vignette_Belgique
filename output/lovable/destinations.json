@@ -196,5 +196,115 @@
       51.015736
     ],
     "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/zaventem.png"
+  },
+  {
+    "id": "dunkerque_courtrai",
+    "nom": "Courtrai",
+    "depart": "Dunkerque",
+    "avec": {
+      "temps_min": 69.3,
+      "distance_km": 77.87
+    },
+    "sans": {
+      "temps_min": 92.9,
+      "distance_km": 99.08
+    },
+    "delta_km": 21.21,
+    "delta_temps_min": 23.6,
+    "bbox": [
+      2.371273,
+      50.683301,
+      3.26522,
+      51.034412
+    ],
+    "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/dunkerque_courtrai.png"
+  },
+  {
+    "id": "dunkerque_bellewaerde",
+    "nom": "Bellewaerde",
+    "depart": "Dunkerque",
+    "avec": {
+      "temps_min": 53.7,
+      "distance_km": 53.57
+    },
+    "sans": {
+      "temps_min": 85.2,
+      "distance_km": 63.66
+    },
+    "delta_km": 10.09,
+    "delta_temps_min": 31.5,
+    "bbox": [
+      2.376845,
+      50.842291,
+      2.962542,
+      51.034412
+    ],
+    "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/dunkerque_bellewaerde.png"
+  },
+  {
+    "id": "dunkerque_floralux_dadizele",
+    "nom": "Floralux Dadizele",
+    "depart": "Dunkerque",
+    "avec": {
+      "temps_min": 64.5,
+      "distance_km": 70.88
+    },
+    "sans": {
+      "temps_min": 97.1,
+      "distance_km": 75.9
+    },
+    "delta_km": 5.02,
+    "delta_temps_min": 32.6,
+    "bbox": [
+      2.376845,
+      50.816035,
+      3.127342,
+      51.034412
+    ],
+    "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/dunkerque_floralux_dadizele.png"
+  },
+  {
+    "id": "valenciennes_zaventem",
+    "nom": "Aeroport de Zaventem",
+    "depart": "Valenciennes",
+    "avec": {
+      "temps_min": 78.7,
+      "distance_km": 108.48
+    },
+    "sans": {
+      "temps_min": 243.3,
+      "distance_km": 168.96
+    },
+    "delta_km": 60.48,
+    "delta_temps_min": 164.6,
+    "bbox": [
+      3.523114,
+      50.355676,
+      4.558725,
+      50.899137
+    ],
+    "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/valenciennes_zaventem.png"
+  },
+  {
+    "id": "valenciennes_charleroi_aeroport",
+    "nom": "Aeroport de Charleroi",
+    "depart": "Valenciennes",
+    "avec": {
+      "temps_min": 52.3,
+      "distance_km": 77.69
+    },
+    "sans": {
+      "temps_min": 244.4,
+      "distance_km": 161.94
+    },
+    "delta_km": 84.25,
+    "delta_temps_min": 192.1,
+    "bbox": [
+      3.523114,
+      50.355676,
+      4.527073,
+      50.75859
+    ],
+    "preview_image": "https://raw.githubusercontent.com/JulienDepelchin/vignette_Belgique/main/output/lovable/previews/valenciennes_charleroi_aeroport.png"
   }
 ]
